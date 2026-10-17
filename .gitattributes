@@ -1,0 +1,4 @@
+# Keep authored sources byte-exact: SVG geometry and README markup are
+# generated and validated, so line endings must not be rewritten on checkout.
+*.svg   text eol=lf
+*.md    text eol=lf
