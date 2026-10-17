@@ -116,10 +116,7 @@
   <text x="185.32" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">LinkedIn</text>
   <circle cx="227.24" cy="246.6" r="1.5" fill="#3c4859"/>
   <text x="251.24" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" opacity="0.8" fill="#5eead4">→</text>
-  <text x="262.48" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">LeetCode</text>
-  <circle cx="304.4" cy="246.6" r="1.5" fill="#3c4859"/>
-  <text x="328.4" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" opacity="0.8" fill="#5eead4">→</text>
-  <text x="339.64" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">Email</text>
+  <text x="262.48" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">Email</text>
 
   <!-- stack -->
   <g>

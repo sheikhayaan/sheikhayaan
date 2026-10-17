@@ -9,7 +9,7 @@
 
 I work where **numerical correctness** meets **systems engineering** — Bayesian diagnostics where a wrong `rhat` silently corrupts someone's research, and agent pipelines where an unsupervised write is a security incident. Six of my pull requests are merged upstream in the ArviZ and Zarr scientific-Python stack, which is where most of that judgment comes from.
 
-[Portfolio](https://personal-portfolio-compiq.vercel.app) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/mohd-ayaan-7731b4381) &nbsp;·&nbsp; [sheikhayaan408@gmail.com](mailto:sheikhayaan408@gmail.com) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/sheikhayaan/)
+[Portfolio](https://personal-portfolio-compiq.vercel.app) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/mohd-ayaan-7731b4381) &nbsp;·&nbsp; [sheikhayaan408@gmail.com](mailto:sheikhayaan408@gmail.com)
 
 ---
 
@@ -151,6 +151,19 @@ Half of these are fixes where nothing crashed: a superchain count, a default arg
 
 ---
 
+## Activity
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/activity-light.svg">
+  <img src="./assets/activity-light.svg" width="100%"
+       alt="Activity panel. Left: the six most recent public GitHub events with date, event type, repository and detail — pushes, a merged pull request in arviz-stats, review comments and a new branch. Right: a 53-week contribution heat grid totalling 126 contributions in twelve months: 97 commits, 10 pull requests, 1 issue.">
+</picture>
+
+<sub>Left: the last six public events, straight from the GitHub events API. A push to one of my own forks is labelled <code>(fork)</code>, because that is my work but it is not an upstream contribution. Right: GitHub's contribution calendar for the last twelve months — 126 contributions across <strong>34 of 365 days</strong>, which is what an academic-term-plus-project-sprint cadence actually looks like. The window, the per-day counts and the totals are read from the API at build time; nothing in that panel is typed by hand.</sub>
+
+---
+
 ## Experience
 
 **SDE Intern** · ITJOBXS — Jobs & Education Platform · *Jun 2026 – Jul 2026*
@@ -183,6 +196,36 @@ Audited network topologies, tested system access controls, and ran vulnerability
 4. **Name the limit before someone else does.** Every project above has one, and the honest version is shorter than the defensive one.
 5. **Reproducibility is a feature.** Seed the RNG, pin the deps, make the pipeline re-runnable.
 6. **Small diffs, honest tests.** A change a reviewer can hold in their head gets reviewed properly, and the test that would have caught the bug ships with the fix.
+
+---
+
+## Where to check
+
+Every claim above is one file away. The short version, for a reviewer who would rather read code than prose:
+
+<details>
+<summary><strong>Open the file behind each claim</strong> — 16 pointers, one per mechanism</summary>
+
+| Claim | Open |
+| :-- | :-- |
+| Webhooks are verified before anything is parsed | [`app/security.py`](https://github.com/sheikhayaan/AUTOPR/blob/main/app/security.py) |
+| Delivery is at-least-once; processing is effectively-once | [`app/queue.py`](https://github.com/sheikhayaan/AUTOPR/blob/main/app/queue.py) · [`app/db.py`](https://github.com/sheikhayaan/AUTOPR/blob/main/app/db.py) |
+| Risk lowers autonomy, never raises it | [`app/routing/policy.py`](https://github.com/sheikhayaan/AUTOPR/blob/main/app/routing/policy.py) |
+| Approval is the only path to a write | [`app/main.py`](https://github.com/sheikhayaan/AUTOPR/blob/main/app/main.py) |
+| The sandbox has no network and no new privileges | [`app/sandbox/runner.py`](https://github.com/sheikhayaan/AUTOPR/blob/main/app/sandbox/runner.py) · [`docker/sandbox.Dockerfile`](https://github.com/sheikhayaan/AUTOPR/blob/main/docker/sandbox.Dockerfile) |
+| The thirteen trade-off records | [`docs/decisions/`](https://github.com/sheikhayaan/AUTOPR/tree/main/docs/decisions) |
+| Vector and keyword results fused by rank, not score | [`backend/query.py`](https://github.com/sheikhayaan/DOCMIND-AI/blob/main/backend/query.py) |
+| The reranker degrades instead of failing the request | [`backend/rerank.py`](https://github.com/sheikhayaan/DOCMIND-AI/blob/main/backend/rerank.py) |
+| Retrieval is scored by a judge model, not by eye | [`backend/evaluate.py`](https://github.com/sheikhayaan/DOCMIND-AI/blob/main/backend/evaluate.py) |
+| Each answer carries its retrieval trace | [`backend/observability.py`](https://github.com/sheikhayaan/DOCMIND-AI/blob/main/backend/observability.py) |
+| Level equivalence is a table, applied once | [`lib/normalize.ts`](https://github.com/sheikhayaan/compiq/blob/main/lib/normalize.ts) · [`prisma/schema.prisma`](https://github.com/sheikhayaan/compiq/blob/main/prisma/schema.prisma) |
+| Compensation written as four components | [`salary_predictor/model.py`](https://github.com/sheikhayaan/compiq/blob/main/salary_predictor/model.py) |
+| The C++ writer and its seeded RNG | [`data_engine.cpp`](https://github.com/sheikhayaan/Hybrid-Data-Pipeline/blob/main/data_engine.cpp) |
+| The seam between the two runtimes | [`model_pipeline.py`](https://github.com/sheikhayaan/Hybrid-Data-Pipeline/blob/main/model_pipeline.py) |
+| Scoring runs as a queued job, with a cache in front of it | [`server/src/jobs/scoringQueue.js`](https://github.com/sheikhayaan/PrepAi/blob/main/server/src/jobs/scoringQueue.js) · [`server/src/utils/questionCache.js`](https://github.com/sheikhayaan/PrepAi/blob/main/server/src/utils/questionCache.js) |
+| Credits gate, BYOK encryption and the worker | [`main.py`](https://github.com/sheikhayaan/Suhana-Ai/blob/main/main.py) · [`generate_process.py`](https://github.com/sheikhayaan/Suhana-Ai/blob/main/generate_process.py) |
+
+</details>
 
 ---
 

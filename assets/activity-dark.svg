@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="300" viewBox="0 0 1180 300"
+     role="img" aria-labelledby="t d" aria-label="Recent GitHub activity for Mohd Ayaan: the last six public events with their repositories, and a twelve-month contribution heat grid" xml:space="preserve">
+  <title id="t">Activity — Mohd Ayaan</title>
+  <desc id="d">Left: the six most recent public GitHub events, each with date, event type, repository and detail — pushes, a merged pull request, review comments and a new branch, including work in the upstream ArviZ repositories. Right: a heat grid of the GitHub contribution calendar, 53 weeks by 7 days, totalling 126 contributions in the last twelve months: 97 commits, 10 pull requests and 1 issue opened.</desc>
+  <defs>
+  <linearGradient id="screen" x1="0" y1="0" x2="0.4" y2="1">
+    <stop offset="0" stop-color="#000000"/>
+    <stop offset="1" stop-color="#05080e"/>
+  </linearGradient>
+  <radialGradient id="bloomField" cx="0.5" cy="0.42" r="0.62">
+    <stop offset="0" stop-color="#5eead4" stop-opacity="0.14"/>
+    <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="cardFill" x1="0" y1="0" x2="0.14" y2="1">
+    <stop offset="0" stop-color="#121a26"/><stop offset="1" stop-color="#0b111a"/>
+  </linearGradient>
+  <linearGradient id="sweepG" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5eead4" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#5eead4" stop-opacity="0.45"/>
+    <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="1.4" cy="1.4" r="1" fill="#2a3648" opacity="0.45"/>
+  </pattern>
+  <pattern id="gridFine" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M30 0 H0 V30" fill="none" stroke="#2a3648" stroke-width="0.6" opacity="0.28"/>
+  </pattern>
+<filter id="bloomSoft" x="-30%" y="-30%" width="160%" height="160%">
+         <feGaussianBlur stdDeviation="6"/>
+       </filter>
+</defs>
+  <rect width="1180" height="300" fill="url(#screen)"/>
+  <rect width="1180" height="300" fill="url(#gridFine)" opacity="0.5"/>
+  <rect width="1180" height="300" fill="url(#dots)" opacity="0.4"/>
+  <rect width="1180" height="300" fill="url(#bloomField)"/>
+  <text x="26" y="26" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.4" font-weight="600" letter-spacing="2.2" fill="#5eead4">ACTIVITY · LAST 12 MONTHS</text>
+  <text x="1154" y="26" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" text-anchor="end" fill="#6e8096">github · public events · contribution calendar</text>
+  <line x1="0" y1="40" x2="1180" y2="40" stroke="#1b2432" stroke-width="1"/>
+  <g><rect x="26" y="58" width="534" height="208" rx="14" fill="url(#cardFill)" stroke="#161f2b" stroke-width="1"/></g><rect x="26" y="58" width="534" height="208" rx="14" fill="none"
+      stroke="#5eead4" stroke-width="1" opacity="0.10"/>
+    <circle cx="45" cy="76.8" r="2.2" fill="#5eead4" opacity="1"><animate attributeName="opacity" values="0;0.9;0" keyTimes="0;0.5;1" dur="3.8s" begin="0s" repeatCount="indefinite"/></circle>
+    <text x="54" y="80" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9" font-weight="600" letter-spacing="2.1" fill="#5eead4">RECENT ACTIVITY</text>
+    <text x="544" y="80" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.4" letter-spacing="0.8" text-anchor="end" fill="#6e8096">PUBLIC EVENTS · GITHUB</text>
+    <line x1="42" y1="92" x2="544" y2="92" stroke="#1b2432" stroke-width="1"/>
+    <text x="42" y="108" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.2" letter-spacing="1.1" fill="#6e8096">DATE</text><text x="118" y="108" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.2" letter-spacing="1.1" fill="#6e8096">EVENT</text><text x="236" y="108" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.2" letter-spacing="1.1" fill="#6e8096">REPOSITORY</text><text x="544" y="108" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.2" letter-spacing="1.1" text-anchor="end" fill="#6e8096">DETAIL</text>
+    <text x="42" y="124" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.8" fill="#8b9cb3">10.16<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.12;0.57" dur="0.62s" fill="freeze"/></text>
+    <text x="118" y="124" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.6" font-weight="600" letter-spacing="0.5" fill="#7c9cff">NEW<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.12;0.57" dur="0.62s" fill="freeze"/></text>
+    <text x="236" y="124" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.2" fill="#bccadb">sheikhayaan<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.12;0.57" dur="0.62s" fill="freeze"/></text>
+    <text x="544" y="124" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.4" text-anchor="end" fill="#6e8096">branch<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.12;0.57" dur="0.62s" fill="freeze"/></text>
+    <text x="42" y="148" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.8" fill="#8b9cb3">10.16<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.18;0.63" dur="0.68s" fill="freeze"/></text>
+    <text x="118" y="148" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.6" font-weight="600" letter-spacing="0.5" fill="#5eead4">PUSH<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.18;0.63" dur="0.68s" fill="freeze"/></text>
+    <text x="236" y="148" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.2" fill="#bccadb">personal-portfolio<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.18;0.63" dur="0.68s" fill="freeze"/></text>
+    <text x="544" y="148" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.4" text-anchor="end" fill="#6e8096">1 commit<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.18;0.63" dur="0.68s" fill="freeze"/></text>
+    <text x="42" y="172" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.8" fill="#8b9cb3">10.16<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.24;0.69" dur="0.74s" fill="freeze"/></text>
+    <text x="118" y="172" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.6" font-weight="600" letter-spacing="0.5" fill="#5eead4">PUSH<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.24;0.69" dur="0.74s" fill="freeze"/></text>
+    <text x="236" y="172" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.2" fill="#bccadb">compiq<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.24;0.69" dur="0.74s" fill="freeze"/></text>
+    <text x="544" y="172" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.4" text-anchor="end" fill="#6e8096">1 commit<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.24;0.69" dur="0.74s" fill="freeze"/></text>
+    <text x="42" y="196" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.8" fill="#8b9cb3">10.13<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.3;0.75" dur="0.8s" fill="freeze"/></text>
+    <text x="118" y="196" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.6" font-weight="600" letter-spacing="0.5" fill="#7c9cff">DISCUSSION<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.3;0.75" dur="0.8s" fill="freeze"/></text>
+    <text x="236" y="196" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.2" fill="#bccadb">arviz-devs/arviz<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.3;0.75" dur="0.8s" fill="freeze"/></text>
+    <text x="42" y="220" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.8" fill="#8b9cb3">10.12<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.36;0.81" dur="0.86s" fill="freeze"/></text>
+    <text x="118" y="220" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.6" font-weight="600" letter-spacing="0.5" fill="#7c9cff">PR<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.36;0.81" dur="0.86s" fill="freeze"/></text>
+    <text x="236" y="220" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.2" fill="#bccadb">arviz-devs/arviz-stats<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.36;0.81" dur="0.86s" fill="freeze"/></text>
+    <text x="544" y="220" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.4" text-anchor="end" fill="#6e8096">merged<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.36;0.81" dur="0.86s" fill="freeze"/></text>
+    <text x="42" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.8" fill="#8b9cb3">10.11<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.42;0.87" dur="0.92s" fill="freeze"/></text>
+    <text x="118" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.6" font-weight="600" letter-spacing="0.5" fill="#5eead4">PUSH<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.42;0.87" dur="0.92s" fill="freeze"/></text>
+    <text x="236" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.2" fill="#bccadb">HAMi (fork)<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.42;0.87" dur="0.92s" fill="freeze"/></text>
+    <text x="544" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.4" text-anchor="end" fill="#6e8096">43 commits<animate attributeName="opacity" values="0;0;1" keyTimes="0;0.42;0.87" dur="0.92s" fill="freeze"/></text>
+    <line x1="42" y1="132" x2="544" y2="132" stroke="#141c27" stroke-width="0.6"/>
+    <line x1="42" y1="156" x2="544" y2="156" stroke="#141c27" stroke-width="0.6"/>
+    <line x1="42" y1="180" x2="544" y2="180" stroke="#141c27" stroke-width="0.6"/>
+    <line x1="42" y1="204" x2="544" y2="204" stroke="#141c27" stroke-width="0.6"/>
+    <line x1="42" y1="228" x2="544" y2="228" stroke="#141c27" stroke-width="0.6"/>
+    <line x1="42" y1="252" x2="544" y2="252" stroke="#141c27" stroke-width="0.6"/>
+  <g><rect x="600" y="58" width="554" height="208" rx="14" fill="url(#cardFill)" stroke="#161f2b" stroke-width="1"/></g><rect x="600" y="58" width="554" height="208" rx="14" fill="none"
+      stroke="#5eead4" stroke-width="1" opacity="0.10"/>
+    <text x="616" y="80" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9" font-weight="600" letter-spacing="2.1" fill="#5eead4">CONTRIBUTIONS · 12 MONTHS</text>
+    <text x="1138" y="80" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.4" letter-spacing="0.8" text-anchor="end" fill="#6e8096">SINCE 2025-10-19</text>
+    <line x1="616" y1="92" x2="1138" y2="92" stroke="#1b2432" stroke-width="1"/>
+    <path d="M616 104h6v6h-6zM616 112h6v6h-6zM616 120h6v6h-6zM616 128h6v6h-6zM616 136h6v6h-6zM616 144h6v6h-6zM616 152h6v6h-6zM624 104h6v6h-6zM624 112h6v6h-6zM624 120h6v6h-6zM624 128h6v6h-6zM624 136h6v6h-6zM624 144h6v6h-6zM624 152h6v6h-6zM632 104h6v6h-6zM632 112h6v6h-6zM632 120h6v6h-6zM632 128h6v6h-6zM632 136h6v6h-6zM632 144h6v6h-6zM632 152h6v6h-6zM640 104h6v6h-6zM640 112h6v6h-6zM640 120h6v6h-6zM640 128h6v6h-6zM640 136h6v6h-6zM640 144h6v6h-6zM640 152h6v6h-6zM648 104h6v6h-6zM648 112h6v6h-6zM648 120h6v6h-6zM648 128h6v6h-6zM648 136h6v6h-6zM648 144h6v6h-6zM648 152h6v6h-6zM656 104h6v6h-6zM656 112h6v6h-6zM656 120h6v6h-6zM656 128h6v6h-6zM656 136h6v6h-6zM656 144h6v6h-6zM656 152h6v6h-6zM664 104h6v6h-6zM664 112h6v6h-6zM664 120h6v6h-6zM664 128h6v6h-6zM664 136h6v6h-6zM664 144h6v6h-6zM664 152h6v6h-6zM672 104h6v6h-6zM672 112h6v6h-6zM672 120h6v6h-6zM672 128h6v6h-6zM672 136h6v6h-6zM672 144h6v6h-6zM672 152h6v6h-6zM680 104h6v6h-6zM680 112h6v6h-6zM680 120h6v6h-6zM680 128h6v6h-6zM680 136h6v6h-6zM680 144h6v6h-6zM680 152h6v6h-6zM688 104h6v6h-6zM688 112h6v6h-6zM688 120h6v6h-6zM688 128h6v6h-6zM688 136h6v6h-6zM688 144h6v6h-6zM688 152h6v6h-6zM696 104h6v6h-6zM696 112h6v6h-6zM696 120h6v6h-6zM696 128h6v6h-6zM696 136h6v6h-6zM696 144h6v6h-6zM696 152h6v6h-6zM704 104h6v6h-6zM704 112h6v6h-6zM704 120h6v6h-6zM704 128h6v6h-6zM704 136h6v6h-6zM704 144h6v6h-6zM704 152h6v6h-6zM712 104h6v6h-6zM712 112h6v6h-6zM712 120h6v6h-6zM712 128h6v6h-6zM712 136h6v6h-6zM712 144h6v6h-6zM712 152h6v6h-6zM720 104h6v6h-6zM720 112h6v6h-6zM720 120h6v6h-6zM720 128h6v6h-6zM720 136h6v6h-6zM720 144h6v6h-6zM720 152h6v6h-6zM728 104h6v6h-6zM728 112h6v6h-6zM728 120h6v6h-6zM728 128h6v6h-6zM728 136h6v6h-6zM728 144h6v6h-6zM728 152h6v6h-6zM736 104h6v6h-6zM736 112h6v6h-6zM736 120h6v6h-6zM736 128h6v6h-6zM736 136h6v6h-6zM736 144h6v6h-6zM736 152h6v6h-6zM744 104h6v6h-6zM744 112h6v6h-6zM744 120h6v6h-6zM744 128h6v6h-6zM744 136h6v6h-6zM744 144h6v6h-6zM744 152h6v6h-6zM752 104h6v6h-6zM752 112h6v6h-6zM752 120h6v6h-6zM752 128h6v6h-6zM752 136h6v6h-6zM752 144h6v6h-6zM752 152h6v6h-6zM760 104h6v6h-6zM760 112h6v6h-6zM760 120h6v6h-6zM760 128h6v6h-6zM760 136h6v6h-6zM760 144h6v6h-6zM760 152h6v6h-6zM768 104h6v6h-6zM768 112h6v6h-6zM768 120h6v6h-6zM768 128h6v6h-6zM768 136h6v6h-6zM768 144h6v6h-6zM768 152h6v6h-6zM776 104h6v6h-6zM776 112h6v6h-6zM776 120h6v6h-6zM776 128h6v6h-6zM776 136h6v6h-6zM776 144h6v6h-6zM776 152h6v6h-6zM784 104h6v6h-6zM784 112h6v6h-6zM784 120h6v6h-6zM784 128h6v6h-6zM784 136h6v6h-6zM784 144h6v6h-6zM784 152h6v6h-6zM792 104h6v6h-6zM792 112h6v6h-6zM792 120h6v6h-6zM792 128h6v6h-6zM792 136h6v6h-6zM792 144h6v6h-6zM792 152h6v6h-6zM800 104h6v6h-6zM800 112h6v6h-6zM800 120h6v6h-6zM800 128h6v6h-6zM800 136h6v6h-6zM800 144h6v6h-6zM800 152h6v6h-6zM808 104h6v6h-6zM808 112h6v6h-6zM808 120h6v6h-6zM808 128h6v6h-6zM808 136h6v6h-6zM808 144h6v6h-6zM808 152h6v6h-6zM816 104h6v6h-6zM816 112h6v6h-6zM816 120h6v6h-6zM816 128h6v6h-6zM816 136h6v6h-6zM816 144h6v6h-6zM816 152h6v6h-6zM824 104h6v6h-6zM824 112h6v6h-6zM824 120h6v6h-6zM824 136h6v6h-6zM824 144h6v6h-6zM824 152h6v6h-6zM832 104h6v6h-6zM832 112h6v6h-6zM832 120h6v6h-6zM832 128h6v6h-6zM832 136h6v6h-6zM832 144h6v6h-6zM832 152h6v6h-6zM840 104h6v6h-6zM840 112h6v6h-6zM840 120h6v6h-6zM840 128h6v6h-6zM840 136h6v6h-6zM840 144h6v6h-6zM840 152h6v6h-6zM848 104h6v6h-6zM848 112h6v6h-6zM848 120h6v6h-6zM848 128h6v6h-6zM848 136h6v6h-6zM848 144h6v6h-6zM848 152h6v6h-6zM856 104h6v6h-6zM856 112h6v6h-6zM856 120h6v6h-6zM856 128h6v6h-6zM856 136h6v6h-6zM856 144h6v6h-6zM856 152h6v6h-6zM864 104h6v6h-6zM864 112h6v6h-6zM864 120h6v6h-6zM864 136h6v6h-6zM864 144h6v6h-6zM864 152h6v6h-6zM872 104h6v6h-6zM872 112h6v6h-6zM872 120h6v6h-6zM872 128h6v6h-6zM872 136h6v6h-6zM872 144h6v6h-6zM872 152h6v6h-6zM880 104h6v6h-6zM880 112h6v6h-6zM880 128h6v6h-6zM880 136h6v6h-6zM880 144h6v6h-6zM880 152h6v6h-6zM888 104h6v6h-6zM888 112h6v6h-6zM888 120h6v6h-6zM888 128h6v6h-6zM888 136h6v6h-6zM888 144h6v6h-6zM888 152h6v6h-6zM896 104h6v6h-6zM896 112h6v6h-6zM896 120h6v6h-6zM896 128h6v6h-6zM896 136h6v6h-6zM896 144h6v6h-6zM896 152h6v6h-6zM904 104h6v6h-6zM904 112h6v6h-6zM904 120h6v6h-6zM904 128h6v6h-6zM904 136h6v6h-6zM904 144h6v6h-6zM912 120h6v6h-6zM912 128h6v6h-6zM912 136h6v6h-6zM912 144h6v6h-6zM912 152h6v6h-6zM920 104h6v6h-6zM920 112h6v6h-6zM920 120h6v6h-6zM920 128h6v6h-6zM920 136h6v6h-6zM920 144h6v6h-6zM920 152h6v6h-6zM928 104h6v6h-6zM928 120h6v6h-6zM928 128h6v6h-6zM928 136h6v6h-6zM928 144h6v6h-6zM928 152h6v6h-6zM936 112h6v6h-6zM936 120h6v6h-6zM936 128h6v6h-6zM936 144h6v6h-6zM936 152h6v6h-6zM944 104h6v6h-6zM944 144h6v6h-6zM944 152h6v6h-6zM952 128h6v6h-6zM952 136h6v6h-6zM952 144h6v6h-6zM960 112h6v6h-6zM960 128h6v6h-6zM960 144h6v6h-6zM960 152h6v6h-6zM968 104h6v6h-6zM968 120h6v6h-6zM968 128h6v6h-6zM968 136h6v6h-6zM968 144h6v6h-6zM976 104h6v6h-6zM976 112h6v6h-6zM976 120h6v6h-6zM976 128h6v6h-6zM976 144h6v6h-6zM984 104h6v6h-6zM984 112h6v6h-6zM984 120h6v6h-6zM984 128h6v6h-6zM984 144h6v6h-6zM992 112h6v6h-6zM992 120h6v6h-6zM992 128h6v6h-6zM992 136h6v6h-6zM992 144h6v6h-6zM992 152h6v6h-6zM1000 104h6v6h-6zM1000 112h6v6h-6zM1000 120h6v6h-6zM1000 128h6v6h-6zM1000 136h6v6h-6zM1000 144h6v6h-6zM1000 152h6v6h-6zM1008 104h6v6h-6zM1008 112h6v6h-6zM1008 128h6v6h-6zM1008 136h6v6h-6zM1008 152h6v6h-6zM1016 112h6v6h-6zM1016 120h6v6h-6zM1016 128h6v6h-6zM1016 136h6v6h-6zM1016 144h6v6h-6zM1024 104h6v6h-6zM1024 112h6v6h-6zM1024 128h6v6h-6zM1024 136h6v6h-6zM1032 104h6v6h-6z" fill="#161f2b"/>
+    <path d="M928 112h6v6h-6zM936 136h6v6h-6zM944 112h6v6h-6zM944 120h6v6h-6zM944 128h6v6h-6zM944 136h6v6h-6zM952 104h6v6h-6zM952 112h6v6h-6zM952 120h6v6h-6zM960 104h6v6h-6zM968 112h6v6h-6zM968 152h6v6h-6zM976 136h6v6h-6zM984 136h6v6h-6zM992 104h6v6h-6zM1008 120h6v6h-6zM1008 144h6v6h-6zM1016 152h6v6h-6z" fill="#5eead4" opacity="0.26"/>
+    <path d="M912 112h6v6h-6zM936 104h6v6h-6zM960 120h6v6h-6zM960 136h6v6h-6zM976 152h6v6h-6zM984 152h6v6h-6zM1016 104h6v6h-6zM1024 120h6v6h-6z" fill="#5eead4" opacity="0.46"/>
+    <path d="M824 128h6v6h-6zM952 152h6v6h-6zM1024 144h6v6h-6z" fill="#5eead4" opacity="0.7"/>
+    <path d="M864 128h6v6h-6zM880 120h6v6h-6zM904 152h6v6h-6zM912 104h6v6h-6zM1024 152h6v6h-6z" fill="#5eead4" opacity="1"/>
+    <rect x="608" y="102" width="12" height="58"
+    fill="url(#sweepG)" opacity="0">
+    <animate attributeName="x" from="606" to="1038" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.55;0.55;0" keyTimes="0;0.12;0.82;1"
+      dur="9s" repeatCount="indefinite"/>
+  </rect>
+    <rect x="1031" y="103"
+    width="8" height="8" rx="1.6" fill="none" stroke="#5eead4"
+    stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.9;0" keyTimes="0;0.5;1" dur="4.6s" begin="0.4s" repeatCount="indefinite"/></rect>
+    <text x="616" y="169" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="6.8" letter-spacing="0.6" fill="#6e8096">LESS</text>
+    <rect x="642" y="164" width="6" height="6" fill="#161f2b"/>
+    <rect x="651" y="164" width="6" height="6" fill="#5eead4" opacity="0.26"/>
+    <rect x="660" y="164" width="6" height="6" fill="#5eead4" opacity="0.46"/>
+    <rect x="669" y="164" width="6" height="6" fill="#5eead4" opacity="0.7"/>
+    <rect x="678" y="164" width="6" height="6" fill="#5eead4"/>
+    <text x="689" y="169" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="6.8" letter-spacing="0.6" fill="#6e8096">MORE</text>
+    <text x="1138" y="169" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="6.8" letter-spacing="0.6" text-anchor="end" fill="#6e8096">34 ACTIVE DAYS OF 365</text>
+    <text x="616" y="206" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="500" fill="#e9f1fa">126</text>
+    <text x="616" y="220" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7" letter-spacing="1.05" fill="#6e8096">CONTRIBUTIONS</text>
+    <text x="748" y="206" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="500" fill="#e9f1fa">97</text>
+    <text x="748" y="220" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7" letter-spacing="1.05" fill="#6e8096">COMMITS</text>
+    <text x="880" y="206" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="500" fill="#e9f1fa">10</text>
+    <text x="880" y="220" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7" letter-spacing="1.05" fill="#6e8096">PULL REQUESTS</text>
+    <text x="1012" y="206" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="19" font-weight="500" fill="#e9f1fa">1</text>
+    <text x="1012" y="220" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7" letter-spacing="1.05" fill="#6e8096">ISSUES OPENED</text>
+    <text x="616" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7" letter-spacing="0.9" fill="#6e8096">MOST COMMITS · COMPIQ 23</text>
+</svg>
