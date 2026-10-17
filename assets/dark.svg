@@ -311,11 +311,11 @@
   <rect x="438" y="345" width="20" height="2.6" rx="1.3" fill="#5eead4">
       <animate attributeName="width" values="20;34;20" dur="6.4s" begin="0.00s" repeatCount="indefinite"/>
     </rect>
-  <text x="645.33" y="352" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.8" font-weight="600" letter-spacing="1" text-anchor="end" fill="#6e8096">AGENTS</text>
+  <text x="645.33" y="352" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="600" letter-spacing="1" text-anchor="end" fill="#6e8096">AGENTS</text>
   <text x="438" y="367" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.8" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">AutoPR</text>
   <text x="438" y="386" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">Multi-agent PR reviewer that</text>
   <text x="438" y="399.4" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">repairs CI, gated on approval.</text>
-  <text x="438" y="424" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" letter-spacing="0.2" fill="#6e8096">Python · LangGraph · Redis</text>
+  <text x="438" y="424" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" letter-spacing="0.2" fill="#6e8096">Python · LangGraph · Redis</text>
   <g>
   <rect x="671.33" y="328" width="235.33" height="108" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
   </g>
@@ -323,11 +323,11 @@
       <animate attributeName="width" values="20;34;20" dur="6.4s" begin="0.34s" repeatCount="indefinite"/>
     </rect>
   <circle cx="869.63" cy="349.4" r="2.6" fill="#f0b429"><animate attributeName="opacity" values="1;1;0.2;0.2" keyTimes="0;0.5;0.56;1" dur="3.2ss" begin="0.34s" repeatCount="indefinite"/></circle>
-  <text x="892.67" y="352" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.8" font-weight="600" letter-spacing="1" text-anchor="end" fill="#f0b429">RAG</text>
+  <text x="892.67" y="352" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="600" letter-spacing="1" text-anchor="end" fill="#f0b429">RAG</text>
   <text x="685.33" y="367" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.8" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">DocMind AI</text>
   <text x="685.33" y="386" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">RAG over your own PDFs, with</text>
   <text x="685.33" y="399.4" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">citations and a vector store.</text>
-  <text x="685.33" y="424" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" letter-spacing="0.2" fill="#6e8096">Next.js · FastAPI · Pinecone</text>
+  <text x="685.33" y="424" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" letter-spacing="0.2" fill="#6e8096">Next.js · FastAPI · Pinecone</text>
   <g>
   <rect x="918.67" y="328" width="235.33" height="108" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
   </g>
@@ -335,44 +335,44 @@
       <animate attributeName="width" values="20;34;20" dur="6.4s" begin="0.68s" repeatCount="indefinite"/>
     </rect>
   <circle cx="1112.28" cy="349.4" r="2.6" fill="#f0b429"><animate attributeName="opacity" values="1;1;0.2;0.2" keyTimes="0;0.5;0.56;1" dur="3.2ss" begin="0.68s" repeatCount="indefinite"/></circle>
-  <text x="1140" y="352" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.8" font-weight="600" letter-spacing="1" text-anchor="end" fill="#f0b429">DATA</text>
+  <text x="1140" y="352" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="600" letter-spacing="1" text-anchor="end" fill="#f0b429">DATA</text>
   <text x="932.67" y="367" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.8" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">CompIQ</text>
   <text x="932.67" y="386" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">Compare offers by level, not</text>
   <text x="932.67" y="399.4" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">job title. Google L5 = Meta E5.</text>
-  <text x="932.67" y="424" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" letter-spacing="0.2" fill="#6e8096">Next.js · Prisma · Postgres</text>
+  <text x="932.67" y="424" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" letter-spacing="0.2" fill="#6e8096">Next.js · Prisma · Postgres</text>
   <g>
   <rect x="424" y="448" width="235.33" height="108" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
   </g>
   <rect x="438" y="465" width="20" height="2.6" rx="1.3" fill="#5eead4">
       <animate attributeName="width" values="20;34;20" dur="6.4s" begin="1.02s" repeatCount="indefinite"/>
     </rect>
-  <text x="645.33" y="472" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.8" font-weight="600" letter-spacing="1" text-anchor="end" fill="#6e8096">SYSTEMS</text>
+  <text x="645.33" y="472" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="600" letter-spacing="1" text-anchor="end" fill="#6e8096">SYSTEMS</text>
   <text x="438" y="487" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.8" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">Hybrid Data Pipeline</text>
   <text x="438" y="506" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">C++ engine writes the CSV,</text>
   <text x="438" y="519.4" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">Python trains on it. Seeded.</text>
-  <text x="438" y="544" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" letter-spacing="0.2" fill="#6e8096">C++ · Python · scikit-learn</text>
+  <text x="438" y="544" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" letter-spacing="0.2" fill="#6e8096">C++ · Python · scikit-learn</text>
   <g>
   <rect x="671.33" y="448" width="235.33" height="108" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
   </g>
   <rect x="685.33" y="465" width="20" height="2.6" rx="1.3" fill="#5eead4">
       <animate attributeName="width" values="20;34;20" dur="6.4s" begin="1.36s" repeatCount="indefinite"/>
     </rect>
-  <text x="892.67" y="472" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.8" font-weight="600" letter-spacing="1" text-anchor="end" fill="#6e8096">AI</text>
+  <text x="892.67" y="472" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="600" letter-spacing="1" text-anchor="end" fill="#6e8096">AI</text>
   <text x="685.33" y="487" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.8" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">PrepAI</text>
   <text x="685.33" y="506" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">AI mock interviews, async</text>
   <text x="685.33" y="519.4" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">jobs behind Redis + BullMQ.</text>
-  <text x="685.33" y="544" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" letter-spacing="0.2" fill="#6e8096">React · Node · MongoDB</text>
+  <text x="685.33" y="544" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" letter-spacing="0.2" fill="#6e8096">React · Node · MongoDB</text>
   <g>
   <rect x="918.67" y="448" width="235.33" height="108" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
   </g>
   <rect x="932.67" y="465" width="20" height="2.6" rx="1.3" fill="#5eead4">
       <animate attributeName="width" values="20;34;20" dur="6.4s" begin="1.70s" repeatCount="indefinite"/>
     </rect>
-  <text x="1140" y="472" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.8" font-weight="600" letter-spacing="1" text-anchor="end" fill="#6e8096">TOOLS</text>
+  <text x="1140" y="472" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="600" letter-spacing="1" text-anchor="end" fill="#6e8096">TOOLS</text>
   <text x="932.67" y="487" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.8" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">Suhana AI</text>
   <text x="932.67" y="506" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">Flask studio: scripts, reels,</text>
   <text x="932.67" y="519.4" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">PDF tools, BYOK API keys.</text>
-  <text x="932.67" y="544" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" letter-spacing="0.2" fill="#6e8096">Flask · Docker · ffmpeg</text>
+  <text x="932.67" y="544" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" letter-spacing="0.2" fill="#6e8096">Flask · Docker · ffmpeg</text>
 
   <!-- system info -->
   <rect x="0" y="556" width="1180" height="64" fill="#0b1119" opacity="0.9"/>
