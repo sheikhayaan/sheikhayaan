@@ -147,7 +147,7 @@
   <text x="48.07" y="541.09" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">                    .....                   </text>
   </g>
   <g clip-path="url(#portraitClip)">
-    <rect x="26" y="0" width="372" height="46" fill="url(#scan)"
+    <rect x="26" y="0" width="372" height="46" fill="url(#scan)" data-offstage="scan"
           transform="translate(0,-80)">
       <animateTransform attributeName="transform" type="translate"
         values="0 -80; 0 556" dur="7s" repeatCount="indefinite"/>
@@ -158,7 +158,7 @@
   <text x="424" y="94" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.6" font-weight="600" letter-spacing="2.4" fill="#5eead4">SOFTWARE ENGINEER · BACKEND &amp; AI INFRASTRUCTURE</text>
   <text x="424" y="154" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-0.4" fill="#e9f1fa">MOHD AYAAN</text>
   <g clip-path="url(#nameClip)">
-    <rect x="0" y="104" width="210" height="66" fill="url(#sheen)"
+    <rect x="0" y="104" width="210" height="66" fill="url(#sheen)" data-offstage="sheen"
           transform="translate(-420,0)">
       <animateTransform attributeName="transform" type="translate"
         values="-420 0; 1180 0" dur="7.4s" repeatCount="indefinite"/>

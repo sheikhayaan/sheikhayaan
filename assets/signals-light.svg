@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="352" viewBox="0 0 1180 352"
+     role="img" aria-labelledby="t d" aria-label="Two data panels. Left: a donut of 6 merged pull requests split across arviz-devs/arviz-stats 4, arviz-devs/arviz 1, zarr-developers/zarr-python 1. Right: language bytes across 7 public repositories." xml:space="preserve">
+  <title id="t">Mohd Ayaan — measured signals</title>
+  <desc id="d">Left, a donut chart of merged pull requests by upstream project with a legend of counts. Right, horizontal bars of language bytes across every public repository, led by HTML, Python, JavaScript and TypeScript.</desc>
+  <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+    <stop offset="0" stop-color="#fdfbf6"/><stop offset="1" stop-color="#f2eee3"/>
+  </linearGradient>
+  <radialGradient id="washA" cx="0.18" cy="0.06" r="0.66">
+    <stop offset="0" stop-color="rgba(15,118,110,0.07)"/><stop offset="1" stop-color="rgba(15,118,110,0.07)" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="washB" cx="0.94" cy="1.04" r="0.72">
+    <stop offset="0" stop-color="rgba(67,56,202,0.05)"/><stop offset="1" stop-color="rgba(67,56,202,0.05)" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="cardFill" x1="0" y1="0" x2="0.12" y2="1">
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#fdfaf4"/>
+  </linearGradient>
+  <linearGradient id="barFill" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#0f766e"/><stop offset="1" stop-color="#4338ca"/>
+  </linearGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="1.4" cy="1.4" r="1" fill="#d9d2c1" opacity="0.7"/>
+  </pattern>
+<filter id="dlift" x="-8%" y="-8%" width="116%" height="120%">
+         <feDropShadow dx="0" dy="2" stdDeviation="3.4" flood-color="#4a3f22" flood-opacity="0.08"/>
+       </filter>
+</defs>
+  <rect width="1180" height="352" fill="url(#bg)"/>
+  <rect width="1180" height="352" fill="url(#dots)" opacity="0.72"/>
+  <rect width="1180" height="352" fill="url(#washA)"/>
+  <rect width="1180" height="352" fill="url(#washB)"/>
+  <text x="26" y="26" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.4" font-weight="600" letter-spacing="2.2" fill="#0f766e">SIGNALS · MEASURED, NOT CLAIMED</text>
+  <text x="1154" y="26" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" text-anchor="end" fill="#626c78">github api · 7 public repos · 6 merged prs</text>
+  <line x1="0" y1="40" x2="1180" y2="40" stroke="#e5dfcf" stroke-width="1"/>
+  <g filter="url(#dlift)"><rect x="26" y="56" width="534" height="248" rx="16" fill="url(#cardFill)" stroke="#e2dccb" stroke-width="1"/></g>
+  <g filter="url(#dlift)"><rect x="600" y="56" width="554" height="248" rx="16" fill="url(#cardFill)" stroke="#e2dccb" stroke-width="1"/></g>
+  <text x="48" y="82" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="600" letter-spacing="2" fill="#0f766e">MERGED PULL REQUESTS</text>
+  <text x="48" y="98" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" fill="#626c78">by upstream project · authored by me</text>
+  <circle cx="134" cy="204" r="77" fill="none" stroke="#e5dfcf" stroke-width="1" opacity="0.9"/>
+  <circle cx="134" cy="204" r="62" fill="none" stroke="#0f766e"
+      stroke-width="20" pathLength="100" stroke-linecap="butt"
+      stroke-dasharray="65.07 34.93" stroke-dashoffset="0"
+      transform="rotate(-90 134 204)"><animate attributeName="stroke-dasharray" values="0 100;0 100;65.07 34.93" keyTimes="0;0.14;0.58" dur="0.58s" fill="freeze"/></circle>
+  <circle cx="134" cy="204" r="62" fill="none" stroke="#4338ca"
+      stroke-width="20" pathLength="100" stroke-linecap="butt"
+      stroke-dasharray="15.07 84.93" stroke-dashoffset="-66.67"
+      transform="rotate(-90 134 204)"><animate attributeName="stroke-dasharray" values="0 100;0 100;15.07 84.93" keyTimes="0;0.24;0.68" dur="0.68s" fill="freeze"/></circle>
+  <circle cx="134" cy="204" r="62" fill="none" stroke="#b45309"
+      stroke-width="20" pathLength="100" stroke-linecap="butt"
+      stroke-dasharray="15.07 84.93" stroke-dashoffset="-83.33"
+      transform="rotate(-90 134 204)"><animate attributeName="stroke-dasharray" values="0 100;0 100;15.07 84.93" keyTimes="0;0.34;0.78" dur="0.78s" fill="freeze"/></circle>
+  <circle cx="134" cy="204" r="62" fill="none"
+    stroke="#0f766e" stroke-width="20" pathLength="100"
+    stroke-dasharray="7 93" opacity="0.22"
+    transform="rotate(-90 134 204)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-100" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <text x="134" y="211" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="-1" text-anchor="middle" fill="#101a28">6</text>
+  <text x="134" y="228" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.2" letter-spacing="2" text-anchor="middle" fill="#626c78">MERGED</text>
+  <g opacity="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.28;0.78" dur="0.83s" fill="freeze"/><rect x="250" y="151" width="10" height="10" rx="3" fill="#0f766e"/><text x="272" y="160" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.2" font-weight="500" fill="#2b3a52">arviz-devs/arviz-stats</text><text x="468" y="160" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.6" font-weight="700" text-anchor="end" fill="#0f766e">4</text><text x="532" y="160" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" text-anchor="end" fill="#626c78">66.7%</text></g>
+  <g opacity="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.39;0.89" dur="0.94s" fill="freeze"/><rect x="250" y="191" width="10" height="10" rx="3" fill="#4338ca"/><text x="272" y="200" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.2" font-weight="500" fill="#2b3a52">arviz-devs/arviz</text><text x="468" y="200" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.6" font-weight="700" text-anchor="end" fill="#4338ca">1</text><text x="532" y="200" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" text-anchor="end" fill="#626c78">16.7%</text></g>
+  <g opacity="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" dur="1.05s" fill="freeze"/><rect x="250" y="231" width="10" height="10" rx="3" fill="#b45309"/><text x="272" y="240" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.2" font-weight="500" fill="#2b3a52">zarr-developers/zarr-python</text><text x="468" y="240" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.6" font-weight="700" text-anchor="end" fill="#b45309">1</text><text x="532" y="240" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" text-anchor="end" fill="#626c78">16.7%</text></g>
+  <text x="622" y="82" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="600" letter-spacing="2" fill="#0f766e">CODE BY LANGUAGE</text>
+  <text x="622" y="98" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" fill="#626c78">bytes across 7 public repos · 2.41 MB total</text>
+  <text x="622" y="132" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#4e5c70">HTML</text>
+  <rect x="740" y="124" width="320" height="9" rx="4.5" fill="#e5dfcf" opacity="0.55"/>
+  <rect x="740" y="124" width="320" height="9" rx="4.5"
+      fill="url(#barFill)" opacity="1"><animate attributeName="width" values="0;0;320" keyTimes="0;0.16;0.5" dur="0.5s" fill="freeze"/></rect>
+  <text x="1132" y="132" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#2b3a52">32.3%</text>
+  <text x="622" y="162" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#4e5c70">Python</text>
+  <rect x="740" y="154" width="320" height="9" rx="4.5" fill="#e5dfcf" opacity="0.55"/>
+  <rect x="740" y="154" width="256.31" height="9" rx="4.5"
+      fill="url(#barFill)" opacity="0.91"><animate attributeName="width" values="0;0;256.31" keyTimes="0;0.25;0.59" dur="0.59s" fill="freeze"/></rect>
+  <text x="1132" y="162" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#2b3a52">25.9%</text>
+  <text x="622" y="192" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#4e5c70">JavaScript</text>
+  <rect x="740" y="184" width="320" height="9" rx="4.5" fill="#e5dfcf" opacity="0.55"/>
+  <rect x="740" y="184" width="199.98" height="9" rx="4.5"
+      fill="url(#barFill)" opacity="0.82"><animate attributeName="width" values="0;0;199.98" keyTimes="0;0.34;0.68" dur="0.68s" fill="freeze"/></rect>
+  <text x="1132" y="192" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#2b3a52">20.2%</text>
+  <text x="622" y="222" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#4e5c70">TypeScript</text>
+  <rect x="740" y="214" width="320" height="9" rx="4.5" fill="#e5dfcf" opacity="0.55"/>
+  <rect x="740" y="214" width="192.28" height="9" rx="4.5"
+      fill="url(#barFill)" opacity="0.73"><animate attributeName="width" values="0;0;192.28" keyTimes="0;0.43;0.77" dur="0.77s" fill="freeze"/></rect>
+  <text x="1132" y="222" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#2b3a52">19.4%</text>
+  <text x="622" y="252" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#4e5c70">CSS</text>
+  <rect x="740" y="244" width="320" height="9" rx="4.5" fill="#e5dfcf" opacity="0.55"/>
+  <rect x="740" y="244" width="17.18" height="9" rx="4.5"
+      fill="url(#barFill)" opacity="0.64"><animate attributeName="width" values="0;0;17.18" keyTimes="0;0.52;0.86" dur="0.86s" fill="freeze"/></rect>
+  <text x="1132" y="252" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#2b3a52">1.7%</text>
+  <text x="622" y="282" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#4e5c70">other</text>
+  <rect x="740" y="274" width="320" height="9" rx="4.5" fill="#e5dfcf" opacity="0.55"/>
+  <rect x="740" y="274" width="3.99" height="9" rx="4.5"
+      fill="url(#barFill)" opacity="0.55"><animate attributeName="width" values="0;0;3.99" keyTimes="0;0.61;0.95" dur="0.95s" fill="freeze"/></rect>
+  <text x="1132" y="282" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#2b3a52">0.4%</text>
+  <text x="26" y="326" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" fill="#626c78">bytes, not effort — markup and tooling are included, so this measures repository bulk, not hours spent</text>
+</svg>

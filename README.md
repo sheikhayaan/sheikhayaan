@@ -12,6 +12,24 @@ I work where **numerical correctness** meets **systems engineering** — Bayesia
 [LeetCode](https://leetcode.com/u/sheikhayaan/) &nbsp;·&nbsp;
 [sheikhayaan408@gmail.com](mailto:sheikhayaan408@gmail.com)
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/signals-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/signals-light.svg">
+  <img src="./assets/signals-light.svg" width="100%"
+       alt="Two panels. Left: a donut chart of 6 merged pull requests — arviz-stats 4, arviz 1, zarr-python 1. Right: horizontal bars of language bytes across 7 public repositories, led by HTML, Python, JavaScript and TypeScript.">
+</picture>
+
+<sub>The donut counts merged PRs by upstream project. The bars measure language bytes across every public repo — markup and tooling included, so they show repository bulk rather than effort.</sub>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/pipeline-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/pipeline-light.svg">
+  <img src="./assets/pipeline-light.svg" width="100%"
+       alt="Flowchart of the AutoPR execution path: a signed GitHub webhook reaches FastAPI ingress, is enqueued on Redis Streams, processed by a worker, then routed by risk either to an auto-comment or to a human approval gate.">
+</picture>
+
+<sub>How a change moves through <a href="https://github.com/sheikhayaan/AUTOPR">AutoPR</a>: the router can auto-post a low-risk comment, but the only path to a real write is a human approving the queued decision.</sub>
+
 ---
 
 ## Open source

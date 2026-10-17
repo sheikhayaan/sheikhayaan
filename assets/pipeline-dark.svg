@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="336" viewBox="0 0 1180 336"
+     role="img" aria-labelledby="t d" aria-label="Animated flowchart of the AutoPR execution path: a signed GitHub webhook hits FastAPI ingress, is enqueued on Redis Streams, processed by a worker, then routed by risk either to an auto-comment or to a human approval gate." xml:space="preserve">
+  <title id="t">AutoPR — execution path</title>
+  <desc id="d">A five-stage pipeline diagram. GitHub event to FastAPI ingress to Redis Streams to Worker to Router. The router forks into two dispositions: auto-comment for low-risk findings, and a human approval gate for anything that changes code.</desc>
+  <defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
+    <stop offset="0" stop-color="#05070c"/><stop offset="1" stop-color="#0a0f18"/>
+  </linearGradient>
+  <radialGradient id="washA" cx="0.18" cy="0.06" r="0.66">
+    <stop offset="0" stop-color="rgba(94,234,212,0.11)"/><stop offset="1" stop-color="rgba(94,234,212,0.11)" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="washB" cx="0.94" cy="1.04" r="0.72">
+    <stop offset="0" stop-color="rgba(124,156,255,0.10)"/><stop offset="1" stop-color="rgba(124,156,255,0.10)" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="cardFill" x1="0" y1="0" x2="0.12" y2="1">
+    <stop offset="0" stop-color="#121a26"/><stop offset="1" stop-color="#0b111a"/>
+  </linearGradient>
+  <linearGradient id="barFill" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#7c9cff"/>
+  </linearGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+    <circle cx="1.4" cy="1.4" r="1" fill="#2a3648" opacity="0.5"/>
+  </pattern>
+<filter id="dglow" x="-30%" y="-30%" width="160%" height="160%">
+         <feGaussianBlur in="SourceGraphic" stdDeviation="3.2" result="b"/>
+         <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+       </filter>
+</defs>
+  <rect width="1180" height="336" fill="url(#bg)"/>
+  <rect width="1180" height="336" fill="url(#dots)" opacity="0.5"/>
+  <rect width="1180" height="336" fill="url(#washA)"/>
+  <rect width="1180" height="336" fill="url(#washB)"/>
+  <text x="26" y="26" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.4" font-weight="600" letter-spacing="2.2" fill="#5eead4">AUTOPR · EXECUTION PATH</text>
+  <text x="1154" y="26" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" text-anchor="end" fill="#6e8096">python · langgraph · redis streams · postgres</text>
+  <line x1="0" y1="40" x2="1180" y2="40" stroke="#1b2432" stroke-width="1"/>
+  <rect x="26" y="60" width="196" height="66" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
+  <rect x="26" y="60" width="196" height="66" rx="12" fill="none"
+      stroke="#5eead4" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.55;0" keyTimes="0;0.5;1" dur="7.2s" begin="0.00s" repeatCount="indefinite"/></rect>
+  <text x="41" y="77" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.2" font-weight="600" letter-spacing="1.4" fill="#6e8096">01</text>
+  <text x="41" y="97" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.4" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">GitHub event</text>
+  <text x="41" y="114" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" fill="#8b9cb3">pull_request · check_run</text>
+  <rect x="252" y="60" width="196" height="66" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
+  <rect x="252" y="60" width="196" height="66" rx="12" fill="none"
+      stroke="#5eead4" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.55;0" keyTimes="0;0.5;1" dur="7.2s" begin="1.35s" repeatCount="indefinite"/></rect>
+  <text x="267" y="77" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.2" font-weight="600" letter-spacing="1.4" fill="#6e8096">02</text>
+  <text x="267" y="97" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.4" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">FastAPI ingress</text>
+  <text x="267" y="114" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" fill="#8b9cb3">verify · persist · enqueue</text>
+  <rect x="478" y="60" width="196" height="66" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
+  <rect x="478" y="60" width="196" height="66" rx="12" fill="none"
+      stroke="#5eead4" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.55;0" keyTimes="0;0.5;1" dur="7.2s" begin="2.70s" repeatCount="indefinite"/></rect>
+  <text x="493" y="77" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.2" font-weight="600" letter-spacing="1.4" fill="#6e8096">03</text>
+  <text x="493" y="97" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.4" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">Redis Streams</text>
+  <text x="493" y="114" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" fill="#8b9cb3">consumer group · PEL</text>
+  <rect x="704" y="60" width="196" height="66" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
+  <rect x="704" y="60" width="196" height="66" rx="12" fill="none"
+      stroke="#5eead4" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.55;0" keyTimes="0;0.5;1" dur="7.2s" begin="4.05s" repeatCount="indefinite"/></rect>
+  <text x="719" y="77" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.2" font-weight="600" letter-spacing="1.4" fill="#6e8096">04</text>
+  <text x="719" y="97" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.4" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">Worker</text>
+  <text x="719" y="114" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" fill="#8b9cb3">exactly-once ledger</text>
+  <rect x="930" y="60" width="224" height="66" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
+  <rect x="930" y="60" width="224" height="66" rx="12" fill="none"
+      stroke="#5eead4" stroke-width="1" opacity="0"><animate attributeName="opacity" values="0;0.55;0" keyTimes="0;0.5;1" dur="7.2s" begin="5.40s" repeatCount="indefinite"/></rect>
+  <text x="945" y="77" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.2" font-weight="600" letter-spacing="1.4" fill="#6e8096">05</text>
+  <text x="945" y="97" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.4" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">Router · policy</text>
+  <text x="945" y="114" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" fill="#8b9cb3">risk → disposition</text>
+  <line x1="225" y1="93" x2="249" y2="93" stroke="#7c9cff"
+    stroke-width="1.4" stroke-dasharray="3 5" opacity="0.75"><animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.3s" repeatCount="indefinite"/></line><path d="M249 93 L242.16 89.4 L242.16 96.6 Z" fill="#7c9cff"/>
+  <g transform="translate(225,93)"><circle r="2.4" fill="#5eead4" opacity="0.9"><animateMotion path="M0,0 L24,0" dur="2.6s" begin="0.2s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.7;1" calcMode="linear"/></circle></g>
+  <line x1="451" y1="93" x2="475" y2="93" stroke="#7c9cff"
+    stroke-width="1.4" stroke-dasharray="3 5" opacity="0.75"><animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.3s" repeatCount="indefinite"/></line><path d="M475 93 L468.16 89.4 L468.16 96.6 Z" fill="#7c9cff"/>
+  <g transform="translate(451,93)"><circle r="2.4" fill="#5eead4" opacity="0.9"><animateMotion path="M0,0 L24,0" dur="2.6s" begin="0.35s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.7;1" calcMode="linear"/></circle></g>
+  <line x1="677" y1="93" x2="701" y2="93" stroke="#7c9cff"
+    stroke-width="1.4" stroke-dasharray="3 5" opacity="0.75"><animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.3s" repeatCount="indefinite"/></line><path d="M701 93 L694.16 89.4 L694.16 96.6 Z" fill="#7c9cff"/>
+  <g transform="translate(677,93)"><circle r="2.4" fill="#5eead4" opacity="0.9"><animateMotion path="M0,0 L24,0" dur="2.6s" begin="0.5s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.7;1" calcMode="linear"/></circle></g>
+  <line x1="903" y1="93" x2="927" y2="93" stroke="#7c9cff"
+    stroke-width="1.4" stroke-dasharray="3 5" opacity="0.75"><animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.3s" repeatCount="indefinite"/></line><path d="M927 93 L920.16 89.4 L920.16 96.6 Z" fill="#7c9cff"/>
+  <g transform="translate(903,93)"><circle r="2.4" fill="#5eead4" opacity="0.9"><animateMotion path="M0,0 L24,0" dur="2.6s" begin="0.6499999999999999s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.7;1" calcMode="linear"/></circle></g>
+  <path d="M802 126 V146 H576 V130" fill="none" stroke="#f0b429"
+    stroke-width="1.3" stroke-dasharray="4 4" opacity="0.7">
+    <animate attributeName="stroke-dashoffset" from="0" to="16" dur="1.6s" repeatCount="indefinite"/></path>
+  <path d="M576 126 L572.4 132.4 L579.6 132.4 Z" fill="#f0b429"/>
+  <text x="689" y="166" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8" text-anchor="middle" fill="#6e8096">bounded retry → dead letter</text>
+  <path d="M1042 126 V152 H800 V248" fill="none" stroke="#7c9cff"
+    stroke-width="1.4" stroke-dasharray="3 5" opacity="0.75">
+    <animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.3s" repeatCount="indefinite"/></path>
+  <g transform="translate(800,152)"><circle r="2.4" fill="#5eead4" opacity="0.9"><animateMotion path="M0,0 L0,96" dur="3.2s" begin="0.9s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.7;1" calcMode="linear"/></circle></g>
+  <line x1="800" y1="198" x2="820" y2="198" stroke="#7c9cff"
+    stroke-width="1.4" stroke-dasharray="3 5" opacity="0.75"><animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.1s" repeatCount="indefinite"/></line><path d="M820 198 L813.16 194.4 L813.16 201.6 Z" fill="#7c9cff"/>
+  <line x1="800" y1="248" x2="820" y2="248" stroke="#7c9cff"
+    stroke-width="1.4" stroke-dasharray="3 5" opacity="0.75"><animate attributeName="stroke-dashoffset" from="0" to="-16" dur="1.1s" repeatCount="indefinite"/></line><path d="M820 248 L813.16 244.4 L813.16 251.6 Z" fill="#7c9cff"/>
+  <rect x="826" y="176" width="328" height="44" rx="11" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
+  <rect x="826" y="176" width="3" height="44" rx="1.5" fill="#5eead4" opacity="0.9"/>
+  <text x="842" y="193" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.8" font-weight="600" letter-spacing="1.2" fill="#6e8096">01</text>
+  <text x="862" y="193" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="11.4" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">AUTO-COMMENT</text>
+  <text x="842" y="209" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.2" fill="#8b9cb3">≤ low risk · dry-run by default</text>
+  <circle cx="1136" cy="198" r="3.2"
+      fill="#5eead4"><animate attributeName="opacity" values="1;1;0.18;1" keyTimes="0;0.86;0.92;1" dur="2.6s" begin="0.3s" repeatCount="indefinite"/></circle>
+  <rect x="826" y="226" width="328" height="44" rx="11" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
+  <rect x="826" y="226" width="3" height="44" rx="1.5" fill="#f0b429" opacity="0.9"/>
+  <text x="842" y="243" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.8" font-weight="600" letter-spacing="1.2" fill="#6e8096">02</text>
+  <text x="862" y="243" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="11.4" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">HUMAN APPROVAL</text>
+  <text x="842" y="259" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.2" fill="#8b9cb3">any code change · PENDING until approved</text>
+  <circle cx="1136" cy="248" r="3.2"
+      fill="#f0b429"><animate attributeName="opacity" values="1;1;0.18;1" keyTimes="0;0.86;0.92;1" dur="3.4s" begin="0.3s" repeatCount="indefinite"/></circle>
+  <text x="26" y="180" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="600" letter-spacing="2" fill="#5eead4">WORKER · TWO AGENT TRACKS</text>
+  <rect x="26" y="203" width="15" height="15" rx="3.5" fill="#5eead4" opacity="0.13"/>
+  <text x="33.5" y="214" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9" font-weight="700" text-anchor="middle" fill="#5eead4">A</text>
+  <text x="50" y="214" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#8b9cb3">code_reviewer → test_gen → router</text>
+  <text x="254.08" y="214" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8" fill="#6e8096">pull_request</text>
+  <rect x="26" y="229" width="15" height="15" rx="3.5" fill="#5eead4" opacity="0.13"/>
+  <text x="33.5" y="240" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9" font-weight="700" text-anchor="middle" fill="#5eead4">B</text>
+  <text x="50" y="240" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#8b9cb3">ci_monitor → fix_agent → fix_verifier</text>
+  <text x="277.12" y="240" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8" fill="#6e8096">check_run</text>
+  <text x="50" y="266" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.2" fill="#6e8096">fix_verifier replays the patch in a docker sandbox (--network none)</text>
+  <line x1="26" y1="290" x2="1154" y2="290" stroke="#1b2432" stroke-width="1"/>
+  <text x="26" y="310" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="600" fill="#5eead4">dry-run by default</text>
+  <text x="154" y="310" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" fill="#6e8096">·  every code change is PENDING until a human approves  ·  unparseable risk fails closed to the queue</text>
+</svg>
