@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1180" height="300" viewBox="0 0 1180 300"
      role="img" aria-labelledby="t d" aria-label="Recent GitHub activity for Mohd Ayaan: the last six public events with their repositories, and a twelve-month contribution heat grid" xml:space="preserve">
   <title id="t">Activity — Mohd Ayaan</title>
-  <desc id="d">Left: the six most recent public GitHub events, each with date, event type, repository and detail — pushes, a merged pull request, review comments and a new branch, including work in the upstream ArviZ repositories. Right: a heat grid of the GitHub contribution calendar, 53 weeks by 7 days, totalling 126 contributions in the last twelve months: 97 commits, 10 pull requests and 1 issue opened.</desc>
+  <desc id="d">Left: the six most recent public GitHub events, each with date, event type, repository and detail — pushes, a merged pull request, comments on upstream pull requests, and a new branch, including work in the upstream ArviZ repositories. Right: a heat grid of the GitHub contribution calendar, 53 weeks by 7 days, totalling 126 contributions in the last twelve months: 97 commits, 10 pull requests and 1 issue opened.</desc>
   <defs>
   <linearGradient id="screen" x1="0" y1="0" x2="0.4" y2="1">
     <stop offset="0" stop-color="#000000"/>

@@ -157,7 +157,7 @@ Half of these are fixes where nothing crashed: a superchain count, a default arg
   <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/activity-light.svg">
   <img src="./assets/activity-light.svg" width="100%"
-       alt="Activity panel. Left: the six most recent public GitHub events with date, event type, repository and detail — pushes, a merged pull request in arviz-stats, review comments and a new branch. Right: a 53-week contribution heat grid totalling 126 contributions in twelve months: 97 commits, 10 pull requests, 1 issue.">
+       alt="Activity panel. Left: the six most recent public GitHub events with date, event type, repository and detail — pushes, a merged pull request in arviz-stats, comments on upstream pull requests, and a new branch. Right: a 53-week contribution heat grid totalling 126 contributions in twelve months: 97 commits, 10 pull requests, 1 issue.">
 </picture>
 
 <sub>Left: the last six public events, straight from the GitHub events API. A push to one of my own forks is labelled <code>(fork)</code>, because that is my work but it is not an upstream contribution. Right: GitHub's contribution calendar for the last twelve months — 126 contributions across <strong>34 of 365 days</strong>, which is what an academic-term-plus-project-sprint cadence actually looks like. The window, the per-day counts and the totals are read from the API at build time; nothing in that panel is typed by hand.</sub>
