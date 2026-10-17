@@ -30,7 +30,7 @@ Each one below is written as a case study: the problem, what was actually built,
 
 ## Case study — AutoPR
 
-`Python` `FastAPI` `LangGraph` `Redis Streams` `Postgres` `Docker` · MIT · no hosted demo, because it is only useful with write credentials
+`Python` `FastAPI` `LangGraph` `Redis Streams` `Postgres` `Docker` · MIT · self-hosted — I don't publish a URL, because the service wants a GitHub token with write scope
 
 **Problem.** Reviewing diffs and babysitting flaky CI is high-volume, pattern-heavy work a model is good at — and exactly what must not run unsupervised, since a wrong automated commit has no bounded blast radius.
 
