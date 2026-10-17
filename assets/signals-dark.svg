@@ -1,97 +1,169 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1180" height="352" viewBox="0 0 1180 352"
      role="img" aria-labelledby="t d" aria-label="Two data panels. Left: a donut of 6 merged pull requests split across arviz-devs/arviz-stats 4, arviz-devs/arviz 1, zarr-developers/zarr-python 1. Right: language bytes across 7 public repositories." xml:space="preserve">
   <title id="t">Mohd Ayaan — measured signals</title>
-  <desc id="d">Left, a donut chart of merged pull requests by upstream project with a legend of counts. Right, horizontal bars of language bytes across every public repository, led by HTML, Python, JavaScript and TypeScript.</desc>
+  <desc id="d">Left, a glowing donut of merged pull requests by upstream project with a legend of counts and shares. Right, horizontal bars of language bytes across every public repository, led by HTML, Python, JavaScript and TypeScript.</desc>
   <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
-    <stop offset="0" stop-color="#05070c"/><stop offset="1" stop-color="#0a0f18"/>
+  <linearGradient id="screen" x1="0" y1="0" x2="0.4" y2="1">
+    <stop offset="0" stop-color="#000000"/>
+    <stop offset="1" stop-color="#05080e"/>
   </linearGradient>
-  <radialGradient id="washA" cx="0.18" cy="0.06" r="0.66">
-    <stop offset="0" stop-color="rgba(94,234,212,0.11)"/><stop offset="1" stop-color="rgba(94,234,212,0.11)" stop-opacity="0"/>
+  <radialGradient id="bloomField" cx="0.5" cy="0.42" r="0.62">
+    <stop offset="0" stop-color="#5eead4" stop-opacity="0.14"/>
+    <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="washB" cx="0.94" cy="1.04" r="0.72">
-    <stop offset="0" stop-color="rgba(124,156,255,0.10)"/><stop offset="1" stop-color="rgba(124,156,255,0.10)" stop-opacity="0"/>
+  <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#7c9cff" stop-opacity="0.22"/>
+    <stop offset="1" stop-color="#7c9cff" stop-opacity="0"/>
   </radialGradient>
-  <linearGradient id="cardFill" x1="0" y1="0" x2="0.12" y2="1">
+  <linearGradient id="cardFill" x1="0" y1="0" x2="0.14" y2="1">
     <stop offset="0" stop-color="#121a26"/><stop offset="1" stop-color="#0b111a"/>
   </linearGradient>
   <linearGradient id="barFill" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#7c9cff"/>
   </linearGradient>
+  <linearGradient id="barGlow" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5eead4" stop-opacity="0"/>
+    <stop offset="0.45" stop-color="#5eead4" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#7c9cff" stop-opacity="0.7"/>
+  </linearGradient>
   <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
-    <circle cx="1.4" cy="1.4" r="1" fill="#2a3648" opacity="0.5"/>
+    <circle cx="1.4" cy="1.4" r="1" fill="#2a3648" opacity="0.45"/>
   </pattern>
-<filter id="dglow" x="-30%" y="-30%" width="160%" height="160%">
-         <feGaussianBlur in="SourceGraphic" stdDeviation="3.2" result="b"/>
-         <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  <pattern id="gridFine" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M30 0 H0 V30" fill="none" stroke="#2a3648" stroke-width="0.6" opacity="0.28"/>
+  </pattern>
+<filter id="bloom" x="-60%" y="-60%" width="220%" height="220%">
+         <feGaussianBlur stdDeviation="6"/>
+       </filter>
+       <filter id="bloomTight" x="-40%" y="-40%" width="180%" height="180%">
+         <feGaussianBlur stdDeviation="2.6"/>
+       </filter>
+       <filter id="neon" x="-40%" y="-40%" width="180%" height="180%">
+         <feGaussianBlur in="SourceGraphic" stdDeviation="2.4" result="b"/>
+         <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
        </filter>
 </defs>
-  <rect width="1180" height="352" fill="url(#bg)"/>
-  <rect width="1180" height="352" fill="url(#dots)" opacity="0.5"/>
-  <rect width="1180" height="352" fill="url(#washA)"/>
-  <rect width="1180" height="352" fill="url(#washB)"/>
+  <rect width="1180" height="352" fill="url(#screen)"/>
+  <rect width="1180" height="352" fill="url(#gridFine)" opacity="0.5"/>
+  <rect width="1180" height="352" fill="url(#dots)" opacity="0.4"/>
+  <rect width="1180" height="352" fill="url(#bloomField)"/>
   <text x="26" y="26" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.4" font-weight="600" letter-spacing="2.2" fill="#5eead4">SIGNALS · MEASURED, NOT CLAIMED</text>
   <text x="1154" y="26" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" text-anchor="end" fill="#6e8096">github api · 7 public repos · 6 merged prs</text>
   <line x1="0" y1="40" x2="1180" y2="40" stroke="#1b2432" stroke-width="1"/>
-  <g><rect x="26" y="56" width="534" height="248" rx="16" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/></g>
-  <g><rect x="600" y="56" width="554" height="248" rx="16" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/></g>
+  <g><rect x="26" y="56" width="534" height="248" rx="16" fill="url(#cardFill)" stroke="#161f2b" stroke-width="1"/></g><rect x="26" y="56" width="534" height="248" rx="16" fill="none"
+      stroke="#5eead4" stroke-width="1" opacity="0.10"/>
+  <g><rect x="600" y="56" width="554" height="248" rx="16" fill="url(#cardFill)" stroke="#161f2b" stroke-width="1"/></g><rect x="600" y="56" width="554" height="248" rx="16" fill="none"
+      stroke="#5eead4" stroke-width="1" opacity="0.10"/>
   <text x="48" y="82" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="600" letter-spacing="2" fill="#5eead4">MERGED PULL REQUESTS</text>
   <text x="48" y="98" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" fill="#6e8096">by upstream project · authored by me</text>
-  <g filter="url(#dglow)"><circle cx="134" cy="204" r="77" fill="none" stroke="#1b2432" stroke-width="1" opacity="0.9"/>
-  <circle cx="134" cy="204" r="62" fill="none" stroke="#5eead4"
-      stroke-width="20" pathLength="100" stroke-linecap="butt"
+  <circle cx="168" cy="186" r="88" fill="none" stroke="#5eead4"
+      stroke-width="26" opacity="0.06" filter="url(#bloom)"/>
+  <circle cx="168" cy="186" r="66" fill="none" stroke="#1b2432" stroke-width="22" opacity="0.55"/>
+  <g filter="url(#bloom)" opacity="0.55"><circle cx="168" cy="186" r="66" fill="none" stroke="#5eead4"
+      stroke-width="55" pathLength="100" stroke-linecap="butt" opacity="1"
       stroke-dasharray="65.07 34.93" stroke-dashoffset="0"
-      transform="rotate(-90 134 204)"><animate attributeName="stroke-dasharray" values="0 100;0 100;65.07 34.93" keyTimes="0;0.14;0.58" dur="0.58s" fill="freeze"/></circle>
-  <circle cx="134" cy="204" r="62" fill="none" stroke="#7c9cff"
-      stroke-width="20" pathLength="100" stroke-linecap="butt"
+      transform="rotate(-90 168 186)"><animate attributeName="stroke-dasharray" values="0 100;0 100;65.07 34.93" keyTimes="0;0.14;0.58" dur="0.58s" fill="freeze"/></circle>
+  <circle cx="168" cy="186" r="66" fill="none" stroke="#7c9cff"
+      stroke-width="55" pathLength="100" stroke-linecap="butt" opacity="1"
       stroke-dasharray="15.07 84.93" stroke-dashoffset="-66.67"
-      transform="rotate(-90 134 204)"><animate attributeName="stroke-dasharray" values="0 100;0 100;15.07 84.93" keyTimes="0;0.24;0.68" dur="0.68s" fill="freeze"/></circle>
-  <circle cx="134" cy="204" r="62" fill="none" stroke="#f0b429"
-      stroke-width="20" pathLength="100" stroke-linecap="butt"
+      transform="rotate(-90 168 186)"><animate attributeName="stroke-dasharray" values="0 100;0 100;15.07 84.93" keyTimes="0;0.24;0.68" dur="0.68s" fill="freeze"/></circle>
+  <circle cx="168" cy="186" r="66" fill="none" stroke="#f0b429"
+      stroke-width="55" pathLength="100" stroke-linecap="butt" opacity="1"
       stroke-dasharray="15.07 84.93" stroke-dashoffset="-83.33"
-      transform="rotate(-90 134 204)"><animate attributeName="stroke-dasharray" values="0 100;0 100;15.07 84.93" keyTimes="0;0.34;0.78" dur="0.78s" fill="freeze"/></circle>
-  <circle cx="134" cy="204" r="62" fill="none"
-    stroke="#ffffff" stroke-width="20" pathLength="100"
-    stroke-dasharray="7 93" opacity="0.22"
-    transform="rotate(-90 134 204)">
+      transform="rotate(-90 168 186)"><animate attributeName="stroke-dasharray" values="0 100;0 100;15.07 84.93" keyTimes="0;0.34;0.78" dur="0.78s" fill="freeze"/></circle></g>
+  <g filter="url(#bloomTight)" opacity="0.7"><circle cx="168" cy="186" r="66" fill="none" stroke="#5eead4"
+      stroke-width="27.5" pathLength="100" stroke-linecap="butt" opacity="1"
+      stroke-dasharray="65.07 34.93" stroke-dashoffset="0"
+      transform="rotate(-90 168 186)"><animate attributeName="stroke-dasharray" values="0 100;0 100;65.07 34.93" keyTimes="0;0.14;0.58" dur="0.58s" fill="freeze"/></circle>
+  <circle cx="168" cy="186" r="66" fill="none" stroke="#7c9cff"
+      stroke-width="27.5" pathLength="100" stroke-linecap="butt" opacity="1"
+      stroke-dasharray="15.07 84.93" stroke-dashoffset="-66.67"
+      transform="rotate(-90 168 186)"><animate attributeName="stroke-dasharray" values="0 100;0 100;15.07 84.93" keyTimes="0;0.24;0.68" dur="0.68s" fill="freeze"/></circle>
+  <circle cx="168" cy="186" r="66" fill="none" stroke="#f0b429"
+      stroke-width="27.5" pathLength="100" stroke-linecap="butt" opacity="1"
+      stroke-dasharray="15.07 84.93" stroke-dashoffset="-83.33"
+      transform="rotate(-90 168 186)"><animate attributeName="stroke-dasharray" values="0 100;0 100;15.07 84.93" keyTimes="0;0.34;0.78" dur="0.78s" fill="freeze"/></circle></g>
+  <circle cx="168" cy="186" r="66" fill="none" stroke="#5eead4"
+      stroke-width="22" pathLength="100" stroke-linecap="butt" opacity="1"
+      stroke-dasharray="65.07 34.93" stroke-dashoffset="0"
+      transform="rotate(-90 168 186)"><animate attributeName="stroke-dasharray" values="0 100;0 100;65.07 34.93" keyTimes="0;0.14;0.58" dur="0.58s" fill="freeze"/></circle>
+  <circle cx="168" cy="186" r="66" fill="none" stroke="#7c9cff"
+      stroke-width="22" pathLength="100" stroke-linecap="butt" opacity="1"
+      stroke-dasharray="15.07 84.93" stroke-dashoffset="-66.67"
+      transform="rotate(-90 168 186)"><animate attributeName="stroke-dasharray" values="0 100;0 100;15.07 84.93" keyTimes="0;0.24;0.68" dur="0.68s" fill="freeze"/></circle>
+  <circle cx="168" cy="186" r="66" fill="none" stroke="#f0b429"
+      stroke-width="22" pathLength="100" stroke-linecap="butt" opacity="1"
+      stroke-dasharray="15.07 84.93" stroke-dashoffset="-83.33"
+      transform="rotate(-90 168 186)"><animate attributeName="stroke-dasharray" values="0 100;0 100;15.07 84.93" keyTimes="0;0.34;0.78" dur="0.78s" fill="freeze"/></circle>
+  <circle cx="168" cy="186" r="66" fill="none"
+    stroke="#ffffff" stroke-width="11" pathLength="100"
+    stroke-dasharray="6 94" opacity="0.35"
+    transform="rotate(-90 168 186)">
     <animate attributeName="stroke-dashoffset" from="0" to="-100" dur="9s" repeatCount="indefinite"/>
-  </circle></g>
-  <text x="134" y="211" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="-1" text-anchor="middle" fill="#e9f1fa">6</text>
-  <text x="134" y="228" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.2" letter-spacing="2" text-anchor="middle" fill="#6e8096">MERGED</text>
-  <g opacity="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.28;0.78" dur="0.83s" fill="freeze"/><rect x="250" y="151" width="10" height="10" rx="3" fill="#5eead4"/><text x="272" y="160" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.2" font-weight="500" fill="#bccadb">arviz-devs/arviz-stats</text><text x="468" y="160" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.6" font-weight="700" text-anchor="end" fill="#5eead4">4</text><text x="532" y="160" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" text-anchor="end" fill="#6e8096">66.7%</text></g>
-  <g opacity="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.39;0.89" dur="0.94s" fill="freeze"/><rect x="250" y="191" width="10" height="10" rx="3" fill="#7c9cff"/><text x="272" y="200" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.2" font-weight="500" fill="#bccadb">arviz-devs/arviz</text><text x="468" y="200" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.6" font-weight="700" text-anchor="end" fill="#7c9cff">1</text><text x="532" y="200" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" text-anchor="end" fill="#6e8096">16.7%</text></g>
-  <g opacity="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" dur="1.05s" fill="freeze"/><rect x="250" y="231" width="10" height="10" rx="3" fill="#f0b429"/><text x="272" y="240" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.2" font-weight="500" fill="#bccadb">zarr-developers/zarr-python</text><text x="468" y="240" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.6" font-weight="700" text-anchor="end" fill="#f0b429">1</text><text x="532" y="240" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" text-anchor="end" fill="#6e8096">16.7%</text></g>
+  </circle>
+  <circle cx="168" cy="186" r="83" fill="none" stroke="#1b2432" stroke-width="1" opacity="0.85"/>
+  <circle cx="168" cy="186" r="50" fill="none" stroke="#1b2432" stroke-width="1" opacity="0.6"/>
+  <circle cx="168" cy="186" r="51" fill="#000000" opacity="0.55"/>
+  <text x="168" y="195" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="34" font-weight="700" letter-spacing="-1.2" text-anchor="middle" fill="#e9f1fa">6</text>
+  <text x="168" y="213" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="7.2" letter-spacing="2.2" text-anchor="middle" fill="#6e8096">MERGED</text>
+  <g opacity="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.28;0.78" dur="0.83s" fill="freeze"/><rect x="300" y="143" width="10" height="10" rx="3" fill="#5eead4" opacity="0.55" filter="url(#bloomTight)"/><rect x="300" y="143" width="10" height="10" rx="3" fill="#5eead4"/><text x="322" y="152" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">arviz-stats</text><text x="468" y="152" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="13.4" font-weight="700" text-anchor="end" fill="#5eead4">4</text><text x="536" y="152" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" text-anchor="end" fill="#6e8096">66.7%</text></g>
+  <g opacity="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.39;0.89" dur="0.94s" fill="freeze"/><rect x="300" y="185" width="10" height="10" rx="3" fill="#7c9cff" opacity="0.55" filter="url(#bloomTight)"/><rect x="300" y="185" width="10" height="10" rx="3" fill="#7c9cff"/><text x="322" y="194" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">arviz</text><text x="468" y="194" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="13.4" font-weight="700" text-anchor="end" fill="#7c9cff">1</text><text x="536" y="194" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" text-anchor="end" fill="#6e8096">16.7%</text></g>
+  <g opacity="1"><animate attributeName="opacity" values="0;0;1" keyTimes="0;0.5;1" dur="1.05s" fill="freeze"/><rect x="300" y="227" width="10" height="10" rx="3" fill="#f0b429" opacity="0.55" filter="url(#bloomTight)"/><rect x="300" y="227" width="10" height="10" rx="3" fill="#f0b429"/><text x="322" y="236" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">zarr-python</text><text x="468" y="236" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="13.4" font-weight="700" text-anchor="end" fill="#f0b429">1</text><text x="536" y="236" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" text-anchor="end" fill="#6e8096">16.7%</text></g>
   <text x="622" y="82" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="600" letter-spacing="2" fill="#5eead4">CODE BY LANGUAGE</text>
   <text x="622" y="98" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" fill="#6e8096">bytes across 7 public repos · 2.41 MB total</text>
-  <text x="622" y="132" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#8b9cb3">HTML</text>
-  <rect x="740" y="124" width="320" height="9" rx="4.5" fill="#1b2432" opacity="0.55"/>
-  <rect x="740" y="124" width="320" height="9" rx="4.5"
-      fill="url(#barFill)" opacity="1"><animate attributeName="width" values="0;0;320" keyTimes="0;0.16;0.5" dur="0.5s" fill="freeze"/></rect>
-  <text x="1132" y="132" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#bccadb">32.3%</text>
-  <text x="622" y="162" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#8b9cb3">Python</text>
-  <rect x="740" y="154" width="320" height="9" rx="4.5" fill="#1b2432" opacity="0.55"/>
-  <rect x="740" y="154" width="256.31" height="9" rx="4.5"
-      fill="url(#barFill)" opacity="0.91"><animate attributeName="width" values="0;0;256.31" keyTimes="0;0.25;0.59" dur="0.59s" fill="freeze"/></rect>
-  <text x="1132" y="162" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#bccadb">25.9%</text>
-  <text x="622" y="192" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#8b9cb3">JavaScript</text>
-  <rect x="740" y="184" width="320" height="9" rx="4.5" fill="#1b2432" opacity="0.55"/>
-  <rect x="740" y="184" width="199.98" height="9" rx="4.5"
-      fill="url(#barFill)" opacity="0.82"><animate attributeName="width" values="0;0;199.98" keyTimes="0;0.34;0.68" dur="0.68s" fill="freeze"/></rect>
-  <text x="1132" y="192" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#bccadb">20.2%</text>
-  <text x="622" y="222" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#8b9cb3">TypeScript</text>
-  <rect x="740" y="214" width="320" height="9" rx="4.5" fill="#1b2432" opacity="0.55"/>
-  <rect x="740" y="214" width="192.28" height="9" rx="4.5"
-      fill="url(#barFill)" opacity="0.73"><animate attributeName="width" values="0;0;192.28" keyTimes="0;0.43;0.77" dur="0.77s" fill="freeze"/></rect>
-  <text x="1132" y="222" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#bccadb">19.4%</text>
-  <text x="622" y="252" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#8b9cb3">CSS</text>
-  <rect x="740" y="244" width="320" height="9" rx="4.5" fill="#1b2432" opacity="0.55"/>
-  <rect x="740" y="244" width="17.18" height="9" rx="4.5"
-      fill="url(#barFill)" opacity="0.64"><animate attributeName="width" values="0;0;17.18" keyTimes="0;0.52;0.86" dur="0.86s" fill="freeze"/></rect>
-  <text x="1132" y="252" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#bccadb">1.7%</text>
-  <text x="622" y="282" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#8b9cb3">other</text>
-  <rect x="740" y="274" width="320" height="9" rx="4.5" fill="#1b2432" opacity="0.55"/>
-  <rect x="740" y="274" width="3.99" height="9" rx="4.5"
-      fill="url(#barFill)" opacity="0.55"><animate attributeName="width" values="0;0;3.99" keyTimes="0;0.61;0.95" dur="0.95s" fill="freeze"/></rect>
-  <text x="1132" y="282" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#bccadb">0.4%</text>
+  <text x="622" y="138" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#8b9cb3">HTML</text>
+  <rect x="742" y="130" width="316" height="9" rx="4.5" fill="#1b2432" opacity="0.55"/>
+  <rect x="742" y="130" width="316" height="9" rx="4.5"
+        fill="url(#barGlow)" opacity="0.5" filter="url(#bloomTight)"><animate attributeName="width" values="0;0;316" keyTimes="0;0.16;0.5" dur="0.5s" fill="freeze"/></rect>
+  <rect x="742" y="130" width="316" height="9" rx="4.5"
+      fill="url(#barFill)" opacity="1"><animate attributeName="width" values="0;0;316" keyTimes="0;0.16;0.5" dur="0.5s" fill="freeze"/></rect>
+  <rect x="744" y="130.6" width="312" height="2" rx="1"
+      fill="#ffffff" opacity="0.22"/>
+  <text x="1132" y="138" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#bccadb">32.3%</text>
+  <text x="622" y="167" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#8b9cb3">Python</text>
+  <rect x="742" y="159" width="316" height="9" rx="4.5" fill="#1b2432" opacity="0.55"/>
+  <rect x="742" y="159" width="253.1" height="9" rx="4.5"
+        fill="url(#barGlow)" opacity="0.5" filter="url(#bloomTight)"><animate attributeName="width" values="0;0;253.1" keyTimes="0;0.25;0.59" dur="0.59s" fill="freeze"/></rect>
+  <rect x="742" y="159" width="253.1" height="9" rx="4.5"
+      fill="url(#barFill)" opacity="0.92"><animate attributeName="width" values="0;0;253.1" keyTimes="0;0.25;0.59" dur="0.59s" fill="freeze"/></rect>
+  <rect x="744" y="159.6" width="249.1" height="2" rx="1"
+      fill="#ffffff" opacity="0.22"/>
+  <text x="1132" y="167" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#bccadb">25.9%</text>
+  <text x="622" y="196" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#8b9cb3">JavaScript</text>
+  <rect x="742" y="188" width="316" height="9" rx="4.5" fill="#1b2432" opacity="0.55"/>
+  <rect x="742" y="188" width="197.48" height="9" rx="4.5"
+        fill="url(#barGlow)" opacity="0.5" filter="url(#bloomTight)"><animate attributeName="width" values="0;0;197.48" keyTimes="0;0.34;0.68" dur="0.68s" fill="freeze"/></rect>
+  <rect x="742" y="188" width="197.48" height="9" rx="4.5"
+      fill="url(#barFill)" opacity="0.84"><animate attributeName="width" values="0;0;197.48" keyTimes="0;0.34;0.68" dur="0.68s" fill="freeze"/></rect>
+  <rect x="744" y="188.6" width="193.48" height="2" rx="1"
+      fill="#ffffff" opacity="0.22"/>
+  <text x="1132" y="196" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#bccadb">20.2%</text>
+  <text x="622" y="225" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#8b9cb3">TypeScript</text>
+  <rect x="742" y="217" width="316" height="9" rx="4.5" fill="#1b2432" opacity="0.55"/>
+  <rect x="742" y="217" width="189.87" height="9" rx="4.5"
+        fill="url(#barGlow)" opacity="0.5" filter="url(#bloomTight)"><animate attributeName="width" values="0;0;189.87" keyTimes="0;0.43;0.77" dur="0.77s" fill="freeze"/></rect>
+  <rect x="742" y="217" width="189.87" height="9" rx="4.5"
+      fill="url(#barFill)" opacity="0.76"><animate attributeName="width" values="0;0;189.87" keyTimes="0;0.43;0.77" dur="0.77s" fill="freeze"/></rect>
+  <rect x="744" y="217.6" width="185.87" height="2" rx="1"
+      fill="#ffffff" opacity="0.22"/>
+  <text x="1132" y="225" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#bccadb">19.4%</text>
+  <text x="622" y="254" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#8b9cb3">CSS</text>
+  <rect x="742" y="246" width="316" height="9" rx="4.5" fill="#1b2432" opacity="0.55"/>
+  <rect x="742" y="246" width="16.96" height="9" rx="4.5"
+        fill="url(#barGlow)" opacity="0.5" filter="url(#bloomTight)"><animate attributeName="width" values="0;0;16.96" keyTimes="0;0.52;0.86" dur="0.86s" fill="freeze"/></rect>
+  <rect x="742" y="246" width="16.96" height="9" rx="4.5"
+      fill="url(#barFill)" opacity="0.68"><animate attributeName="width" values="0;0;16.96" keyTimes="0;0.52;0.86" dur="0.86s" fill="freeze"/></rect>
+  <rect x="744" y="246.6" width="12.96" height="2" rx="1"
+      fill="#ffffff" opacity="0.22"/>
+  <text x="1132" y="254" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#bccadb">1.7%</text>
+  <text x="622" y="283" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" fill="#8b9cb3">other</text>
+  <rect x="742" y="275" width="316" height="9" rx="4.5" fill="#1b2432" opacity="0.55"/>
+  <rect x="742" y="275" width="3.94" height="9" rx="4.5"
+        fill="url(#barGlow)" opacity="0.5" filter="url(#bloomTight)"><animate attributeName="width" values="0;0;3.94" keyTimes="0;0.61;0.95" dur="0.95s" fill="freeze"/></rect>
+  <rect x="742" y="275" width="3.94" height="9" rx="4.5"
+      fill="url(#barFill)" opacity="0.6"><animate attributeName="width" values="0;0;3.94" keyTimes="0;0.61;0.95" dur="0.95s" fill="freeze"/></rect>
+  <rect x="744" y="275.6" width="0" height="2" rx="1"
+      fill="#ffffff" opacity="0.22"/>
+  <text x="1132" y="283" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" font-weight="500" text-anchor="end" fill="#bccadb">0.4%</text>
   <text x="26" y="326" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" fill="#6e8096">bytes, not effort — markup and tooling are included, so this measures repository bulk, not hours spent</text>
 </svg>

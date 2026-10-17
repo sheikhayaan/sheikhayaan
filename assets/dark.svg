@@ -1,392 +1,367 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610"
-     role="img" aria-labelledby="heroTitle heroDesc" aria-label="Mohd Ayaan, software engineer. ASCII portrait, tech stack, six merged open-source pull requests and six featured projects." xml:space="preserve">
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="500" viewBox="0 0 1180 500"
+     role="img" aria-labelledby="heroTitle heroDesc" aria-label="Mohd Ayaan, software engineer. A five-layer stack map and four counts: six merged pull requests, three upstream repositories, six systems shipped, two live demos." xml:space="preserve">
   <title id="heroTitle">Mohd Ayaan — Software Engineer, backend &amp; AI infrastructure</title>
-  <desc id="heroDesc">Animated terminal-style profile banner. A portrait of Mohd Ayaan rendered in ASCII from a photograph, alongside his role, tech stack, six merged pull requests in ArviZ and Zarr, and six featured projects: AutoPR, DocMind AI, CompIQ, Hybrid Data Pipeline, PrepAI and Suhana AI.</desc>
+  <desc id="heroDesc">Profile banner for Mohd Ayaan: role, degree, contact links and toolchain, a five-layer map of the stack he builds with (client, ingress, queue, agents, store), and four verified counts: six merged pull requests, three upstream repositories, six systems shipped, two live demos.</desc>
   <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="0.35" y2="1">
     <stop offset="0" stop-color="#05070c"/>
     <stop offset="1" stop-color="#0a0f18"/>
   </linearGradient>
 
-  <radialGradient id="washA" cx="0.20" cy="0.10" r="0.62">
+  <radialGradient id="washA" cx="0.16" cy="0.02" r="0.66">
     <stop offset="0" stop-color="rgba(94,234,212,0.11)"/>
     <stop offset="1" stop-color="rgba(94,234,212,0.11)" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="washB" cx="0.92" cy="1.02" r="0.70">
+  <radialGradient id="washB" cx="0.95" cy="1.04" r="0.74">
     <stop offset="0" stop-color="rgba(124,156,255,0.10)"/>
     <stop offset="1" stop-color="rgba(124,156,255,0.10)" stop-opacity="0"/>
   </radialGradient>
 
-  <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#ffffff" stop-opacity="0.055"/>
-    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
-  </linearGradient>
-
-  <linearGradient id="cardFill" x1="0" y1="0" x2="0.15" y2="1">
+  <linearGradient id="cardFill" x1="0" y1="0" x2="0.12" y2="1">
     <stop offset="0" stop-color="#121a26"/>
     <stop offset="1" stop-color="#0b111a"/>
   </linearGradient>
 
-  <linearGradient id="asciiInk" x1="0" y1="0" x2="0.25" y2="1">
-    <stop offset="0" stop-color="#e2f1ff"/>
-    <stop offset="0.62" stop-color="#7ba6d2"/>
-    <stop offset="1" stop-color="#e2f1ff" stop-opacity="0.82"/>
+  <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5eead4"/>
+    <stop offset="0.72" stop-color="#5eead4" stop-opacity="0.28"/>
+    <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
   </linearGradient>
 
-  <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#5eead4" stop-opacity="0"/>
-    <stop offset="0.72" stop-color="#5eead4" stop-opacity="0.16"/>
-    <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
+  <linearGradient id="spine" gradientUnits="userSpaceOnUse" x1="672" y1="142" x2="672" y2="306">
+    <stop offset="0" stop-color="#5eead4" stop-opacity="0.16"/>
+    <stop offset="0.12" stop-color="#7c9cff" stop-opacity="0.85"/>
+    <stop offset="0.88" stop-color="#5eead4" stop-opacity="0.85"/>
+    <stop offset="1" stop-color="#5eead4" stop-opacity="0.16"/>
+  </linearGradient>
+
+  <linearGradient id="chipFill" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#5eead4" stop-opacity="0.085"/>
+    <stop offset="0.55" stop-color="#5eead4" stop-opacity="0.02"/>
+    <stop offset="1" stop-color="#7c9cff" stop-opacity="0.06"/>
   </linearGradient>
 
   <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
     <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
-    <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.55"/>
+    <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.5"/>
     <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
   </linearGradient>
 
-  <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#5eead4"/>
-    <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
-  </linearGradient>
-
-  <radialGradient id="aura" cx="0.5" cy="0.5" r="0.5">
-    <stop offset="0" stop-color="#5eead4" stop-opacity="0.20"/>
-    <stop offset="0.55" stop-color="#5eead4" stop-opacity="0.06"/>
-    <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
-  </radialGradient>
-
   <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
-    <circle cx="1.4" cy="1.4" r="1" fill="#2a3648" opacity="0.55"/>
+    <circle cx="1.4" cy="1.4" r="1" fill="#2a3648" opacity="0.5"/>
   </pattern>
 
-  <clipPath id="portraitClip">
-    <rect x="26" y="68" width="372" height="488" rx="16"/>
-  </clipPath>
+  <pattern id="gridFine" width="34" height="34" patternUnits="userSpaceOnUse">
+    <path d="M34 0 H0 V34" fill="none" stroke="#2a3648" stroke-width="0.7" opacity="0.34"/>
+  </pattern>
+
   <clipPath id="nameClip">
-    <text x="424" y="154" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="58" font-weight="700"
-          letter-spacing="-0.4">MOHD AYAAN</text>
+    <rect x="20" y="96" width="420.3" height="70"/>
   </clipPath>
-<filter id="phos" x="-6%" y="-8%" width="112%" height="116%">
-         <feGaussianBlur in="SourceGraphic" stdDeviation="2.1" result="b"/>
-         <feMerge>
-           <feMergeNode in="b"/><feMergeNode in="b"/>
-           <feMergeNode in="SourceGraphic"/>
-         </feMerge>
+  <clipPath id="cardClip">
+    <rect x="642" y="68" width="512" height="274" rx="16"/>
+  </clipPath>
+<filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+         <feGaussianBlur stdDeviation="3.4" result="b"/>
+         <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+       </filter>
+       <filter id="glowSoft" x="-80%" y="-80%" width="260%" height="260%">
+         <feGaussianBlur stdDeviation="7"/>
        </filter>
 </defs>
 
   <!-- backdrop -->
-  <rect width="1180" height="610" fill="url(#bg)"/>
-  <rect width="1180" height="610" fill="url(#dots)" opacity="0.55"/>
-  <rect width="1180" height="610" fill="url(#washA)"/>
-  <rect width="1180" height="610" fill="url(#washB)"/>
+  <rect width="1180" height="500" fill="url(#bg)"/>
+  <rect width="1180" height="500" fill="url(#dots)" opacity="0.5"/>
+  <rect width="1180" height="500" fill="url(#washA)"/>
+  <rect width="1180" height="500" fill="url(#washB)"/>
 
   <!-- chrome -->
-  <rect x="0" y="0" width="1180" height="44" fill="#0b1119" opacity="0.92"/>
+  <rect x="0" y="0" width="1180" height="44" fill="#0b1119" opacity="0.94"/>
   <line x1="0" y1="44" x2="1180" y2="44" stroke="#1b2432" stroke-width="1"/>
-  <rect x="0" y="44" width="1180" height="10" fill="url(#dots)" opacity="0.5"/>
+  <rect x="0" y="44" width="1180" height="10" fill="url(#dots)" opacity="0.45"/>
   <circle cx="30" cy="22" r="4.2" fill="#ff5f57" opacity="1"/>
   <circle cx="46" cy="22" r="4.2" fill="#febc2e" opacity="1"/>
   <circle cx="62" cy="22" r="4.2" fill="#28c840" opacity="1"/>
   <text x="82" y="26" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.6" font-weight="500" fill="#bccadb">sheikhayaan</text>
   <text x="151.96" y="26" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.6" fill="#3c4859">  in  </text>
   <text x="190.12" y="26" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.6" fill="#5eead4">~/profile</text>
-  <text x="247.36" y="26" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.6" fill="#3c4859">  </text>
-  <rect x="261.08" y="18" width="6.4" height="11" fill="#5eead4" opacity="0.85"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.56;1" dur="1.15ss" begin="0s" repeatCount="indefinite"/></rect>/>
-  <line x1="430" y1="22" x2="850" y2="22" stroke="#7c9cff" stroke-width="1" opacity="0.45" stroke-dasharray="2 7"><animate attributeName="stroke-dashoffset"
-      values="0;-72" dur="3.6s" repeatCount="indefinite"/></line>/>
+  <rect x="248.36" y="18" width="6.4" height="11" fill="#5eead4" opacity="0.85"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.56;1" dur="1.15ss" begin="0s" repeatCount="indefinite"/></rect>/>
+  <line x1="430" y1="22" x2="850" y2="22" stroke="#7c9cff" stroke-width="1"
+    opacity="0.4" stroke-dasharray="2 7">
+    <animate attributeName="stroke-dashoffset" values="0;-72" dur="3.6s" repeatCount="indefinite"/></line>
   <text x="1154" y="26" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.2" text-anchor="end" fill="#8b9cb3">open to internships</text>
   <circle cx="1024.72" cy="22" r="3.4" fill="#5eead4"><animate attributeName="opacity" values="1;1;0.22;0.22" keyTimes="0;0.5;0.56;1" dur="2.4ss" begin="0.2s" repeatCount="indefinite"/></circle>
 
-  <!-- portrait -->
-  <g>
-  <rect x="26" y="68" width="372" height="488" rx="16" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
-  </g>
-  <rect x="26" y="68" width="372" height="150" rx="16" fill="url(#glass)" opacity="0.9"/>
-  <ellipse cx="212" cy="318" rx="190" ry="210" fill="url(#aura)"><animate attributeName="opacity" values="0.55;1;0.55" dur="9s" repeatCount="indefinite"/></ellipse>
-  <text x="46" y="92" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" font-weight="600" letter-spacing="2.2" fill="#5eead4">PORTRAIT.SYS</text>
-  <text x="378" y="92" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9" text-anchor="end" fill="#6e8096">ascii 44×30</text>
-  <line x1="46" y1="104" x2="378" y2="104" stroke="#1b2432" stroke-width="1" opacity="0.9"/>
-  <g stroke="#5eead4" stroke-width="1.4" stroke-linecap="square" opacity="0.34">
-      <path d="M38 136 L38 122 L52 122"/>
-      <path d="M372 122 L386 122 L386 136"/>
-      <path d="M38 530 L38 544 L52 544"/>
-      <path d="M372 544 L386 544 L386 530"/>
-    </g>
-  <g filter="url(#phos)">
-  <text x="48.07" y="126.91" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">                                            </text>
-  <text x="48.07" y="141.19" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">                                            </text>
-  <text x="48.07" y="155.47" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">                    .....                   </text>
-  <text x="48.07" y="169.76" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">               ..::=+#%#*+-....             </text>
-  <text x="48.07" y="184.04" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">            .:=*%%%@@@@@@@##-=+-.           </text>
-  <text x="48.07" y="198.32" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">          .-*%@@@@@%#%%%%@@%%*#**-.         </text>
-  <text x="48.07" y="212.6" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">         :*@@@%%%##@@@@@@@@@@@@@%#+:.       </text>
-  <text x="48.07" y="226.88" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">        -#@@@##%%%%@@@@@@@@@@@@@@@*+-.      </text>
-  <text x="48.07" y="241.17" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">      .-%@@%#%%%%%@@@%%%%%%%@@@@@@@#*-.     </text>
-  <text x="48.07" y="255.45" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">      :*%@%#*%####**+++=+++*#%%@@@@@#*-.    </text>
-  <text x="48.07" y="269.73" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">     :#@%#*+==--::--------==+**%%@@@@#+:    </text>
-  <text x="48.07" y="284.01" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">    .+@%=:::::..   ....:::--==**#%@@@%#+.   </text>
-  <text x="48.07" y="298.29" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">    .*%+.. .............:::--==+#%@@@#*#-   </text>
-  <text x="48.07" y="312.58" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">   .:+*=.. ....  ....  ..:-=**####%@@#*%=.  </text>
-  <text x="48.07" y="326.86" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">   .-+*=. .-=--::::. .:=+#%@@@@@@%*%@#*%*:  </text>
-  <text x="48.07" y="341.14" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">   :++=:..=%%%%@@%#=--=***#=-=**##%++#*%#:  </text>
-  <text x="48.07" y="355.42" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">   :#+-. :++=-*###+*%#%@##++%#%@*+###**%#:  </text>
-  <text x="48.07" y="369.7" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">   :##. =%:+#*@@*#++%-+@%*+==+**++**##***:  </text>
-  <text x="48.07" y="383.99" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">   .=#+:.-==+++++=-=*:=*@*=------+**#**+=.  </text>
-  <text x="48.07" y="398.27" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">    .-:...==:---:::=..-=#%%+=-----+*%#*=:   </text>
-  <text x="48.07" y="412.55" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">    .: -...-+===++-:+:-*@*%#: .:--*#%@#=:   </text>
-  <text x="48.07" y="426.83" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">      :=....:::--:.:=-+*%%**-::-=+*#%%*-.   </text>
-  <text x="48.07" y="441.11" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">      .::. .:---=------+*#***+-==***##-.    </text>
-  <text x="48.07" y="455.4" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">      . .  ::::-+*+++=-=***##=--+****=.     </text>
-  <text x="48.07" y="469.68" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">         : ::..-==-::===++***+=-****=:      </text>
-  <text x="48.07" y="483.96" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">        .-=...:--::::----==+++=*#%*-.       </text>
-  <text x="48.07" y="498.24" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">          ::::::.:.  .::::=++*###=:         </text>
-  <text x="48.07" y="512.52" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">             .-==-:...:::=+#%%#=:.          </text>
-  <text x="48.07" y="526.81" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">              ..:==+********=-.             </text>
-  <text x="48.07" y="541.09" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="12.42" textLength="327.87" lengthAdjust="spacingAndGlyphs" xml:space="preserve" fill="url(#asciiInk)">                  ..::::::..                </text>
-  </g>
-  <g clip-path="url(#portraitClip)">
-    <rect x="26" y="0" width="372" height="46" fill="url(#scan)" data-offstage="scan"
-          transform="translate(0,-80)">
-      <animateTransform attributeName="transform" type="translate"
-        values="0 -80; 0 556" dur="7s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-
   <!-- identity -->
-  <text x="424" y="94" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.6" font-weight="600" letter-spacing="2.4" fill="#5eead4">SOFTWARE ENGINEER · BACKEND &amp; AI INFRASTRUCTURE</text>
-  <text x="424" y="154" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="58" font-weight="700" letter-spacing="-0.4" fill="#e9f1fa">MOHD AYAAN</text>
+  <text x="26" y="78" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.6" font-weight="600" letter-spacing="2.4" fill="#5eead4">SOFTWARE ENGINEER · BACKEND &amp; AI INFRASTRUCTURE</text>
+  <text x="26" y="146" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="60" font-weight="700" letter-spacing="-0.6" fill="#e9f1fa">MOHD AYAAN</text>
   <g clip-path="url(#nameClip)">
-    <rect x="0" y="104" width="210" height="66" fill="url(#sheen)" data-offstage="sheen"
-          transform="translate(-420,0)">
+    <rect x="0" y="94" width="190" height="68" fill="url(#sheen)" data-offstage="sheen"
+          transform="translate(-400,0)">
       <animateTransform attributeName="transform" type="translate"
-        values="-420 0; 1180 0" dur="7.4s" repeatCount="indefinite"/>
+        values="-400 0; 620 0" dur="7.6s" repeatCount="indefinite"/>
     </rect>
   </g>
-  <rect x="424" y="176" width="78" height="3" rx="1.5" fill="url(#rule)"/>
-  <text x="424" y="202" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.6" fill="#bccadb">B.Tech Mathematics &amp; Computing · Delhi Technological University</text>
-  <text x="424" y="222" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.6" fill="#8b9cb3">Open-source contributor to ArviZ &amp; Zarr — 6 merged pull requests</text>
-  <text x="424" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" opacity="0.75" fill="#5eead4">→</text>
-  <text x="435.24" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">Portfolio</text>
-  <circle cx="499.4" cy="240.6" r="1.5" fill="#3c4859"/>
-  <text x="507.4" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" opacity="0.75" fill="#5eead4">→</text>
-  <text x="518.64" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">GitHub</text>
-  <circle cx="564.08" cy="240.6" r="1.5" fill="#3c4859"/>
-  <text x="572.08" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" opacity="0.75" fill="#5eead4">→</text>
-  <text x="583.32" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">LinkedIn</text>
-  <circle cx="641.24" cy="240.6" r="1.5" fill="#3c4859"/>
-  <text x="649.24" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" opacity="0.75" fill="#5eead4">→</text>
-  <text x="660.48" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">LeetCode</text>
-  <circle cx="718.4" cy="240.6" r="1.5" fill="#3c4859"/>
-  <text x="726.4" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" opacity="0.75" fill="#5eead4">→</text>
-  <text x="737.64" y="244" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">Email</text>
+  <rect x="26" y="170" width="84" height="3" rx="1.5" fill="url(#rule)"/>
+  <text x="26" y="198" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#bccadb">B.Tech Mathematics &amp; Computing · Delhi Technological University</text>
+  <text x="26" y="220" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#8b9cb3">Open-source contributor to ArviZ &amp; Zarr — 6 merged pull requests</text>
+  <text x="26" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" opacity="0.8" fill="#5eead4">→</text>
+  <text x="37.24" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">Portfolio</text>
+  <circle cx="85.4" cy="246.6" r="1.5" fill="#3c4859"/>
+  <text x="109.4" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" opacity="0.8" fill="#5eead4">→</text>
+  <text x="120.64" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">GitHub</text>
+  <circle cx="150.08" cy="246.6" r="1.5" fill="#3c4859"/>
+  <text x="174.08" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" opacity="0.8" fill="#5eead4">→</text>
+  <text x="185.32" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">LinkedIn</text>
+  <circle cx="227.24" cy="246.6" r="1.5" fill="#3c4859"/>
+  <text x="251.24" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" opacity="0.8" fill="#5eead4">→</text>
+  <text x="262.48" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">LeetCode</text>
+  <circle cx="304.4" cy="246.6" r="1.5" fill="#3c4859"/>
+  <text x="328.4" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" opacity="0.8" fill="#5eead4">→</text>
+  <text x="339.64" y="250" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10.4" font-weight="500" fill="#bccadb">Email</text>
 
   <!-- stack -->
   <g>
-        <rect x="424" y="260" width="58" height="26" rx="13"
+        <rect x="26" y="282" width="58" height="26" rx="13"
               fill="#0b1119" stroke="#1e2837" stroke-width="1"/>
-        <rect x="424" y="260" width="58" height="26" rx="13"
+        <rect x="26" y="282" width="58" height="26" rx="13"
               fill="none" stroke="#5eead4" stroke-width="1" stroke-opacity="0.30">
           <animate attributeName="stroke-opacity" values="0.10;0.55;0.10"
-                   dur="5.6s" begin="0s" repeatCount="indefinite"/>
+                   dur="5.6s" begin="0.00s" repeatCount="indefinite"/>
         </rect>
-        <text x="453" y="277" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">Python</text>
+        <text x="55" y="299" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">Python</text>
       </g>
   <g>
-        <rect x="490" y="260" width="82" height="26" rx="13"
+        <rect x="92" y="282" width="82" height="26" rx="13"
               fill="#0b1119" stroke="#1e2837" stroke-width="1"/>
-        <rect x="490" y="260" width="82" height="26" rx="13"
+        <rect x="92" y="282" width="82" height="26" rx="13"
               fill="none" stroke="#5eead4" stroke-width="1" stroke-opacity="0.30">
           <animate attributeName="stroke-opacity" values="0.10;0.55;0.10"
                    dur="5.6s" begin="0.28s" repeatCount="indefinite"/>
         </rect>
-        <text x="531" y="277" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">TypeScript</text>
+        <text x="133" y="299" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">TypeScript</text>
       </g>
   <g>
-        <rect x="580" y="260" width="44" height="26" rx="13"
+        <rect x="182" y="282" width="46" height="26" rx="13"
               fill="#0b1119" stroke="#1e2837" stroke-width="1"/>
-        <rect x="580" y="260" width="44" height="26" rx="13"
+        <rect x="182" y="282" width="46" height="26" rx="13"
               fill="none" stroke="#5eead4" stroke-width="1" stroke-opacity="0.30">
           <animate attributeName="stroke-opacity" values="0.10;0.55;0.10"
                    dur="5.6s" begin="0.56s" repeatCount="indefinite"/>
         </rect>
-        <text x="602" y="277" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">C++</text>
+        <text x="205" y="299" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">C++</text>
       </g>
   <g>
-        <rect x="632" y="260" width="44" height="26" rx="13"
+        <rect x="236" y="282" width="46" height="26" rx="13"
               fill="#0b1119" stroke="#1e2837" stroke-width="1"/>
-        <rect x="632" y="260" width="44" height="26" rx="13"
+        <rect x="236" y="282" width="46" height="26" rx="13"
               fill="none" stroke="#5eead4" stroke-width="1" stroke-opacity="0.30">
           <animate attributeName="stroke-opacity" values="0.10;0.55;0.10"
-                   dur="5.6s" begin="0.8400000000000001s" repeatCount="indefinite"/>
+                   dur="5.6s" begin="0.84s" repeatCount="indefinite"/>
         </rect>
-        <text x="654" y="277" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">SQL</text>
+        <text x="259" y="299" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">SQL</text>
       </g>
   <g>
-        <rect x="684" y="260" width="64" height="26" rx="13"
+        <rect x="290" y="282" width="64" height="26" rx="13"
               fill="#0b1119" stroke="#1e2837" stroke-width="1"/>
-        <rect x="684" y="260" width="64" height="26" rx="13"
+        <rect x="290" y="282" width="64" height="26" rx="13"
               fill="none" stroke="#5eead4" stroke-width="1" stroke-opacity="0.30">
           <animate attributeName="stroke-opacity" values="0.10;0.55;0.10"
                    dur="5.6s" begin="1.12s" repeatCount="indefinite"/>
         </rect>
-        <text x="716" y="277" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">FastAPI</text>
+        <text x="322" y="299" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">FastAPI</text>
       </g>
   <g>
-        <rect x="756" y="260" width="64" height="26" rx="13"
+        <rect x="362" y="282" width="64" height="26" rx="13"
               fill="#0b1119" stroke="#1e2837" stroke-width="1"/>
-        <rect x="756" y="260" width="64" height="26" rx="13"
+        <rect x="362" y="282" width="64" height="26" rx="13"
               fill="none" stroke="#5eead4" stroke-width="1" stroke-opacity="0.30">
           <animate attributeName="stroke-opacity" values="0.10;0.55;0.10"
-                   dur="5.6s" begin="1.4000000000000001s" repeatCount="indefinite"/>
+                   dur="5.6s" begin="1.40s" repeatCount="indefinite"/>
         </rect>
-        <text x="788" y="277" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">Next.js</text>
+        <text x="394" y="299" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">Next.js</text>
       </g>
   <g>
-        <rect x="424" y="292" width="76" height="26" rx="13"
+        <rect x="26" y="316" width="76" height="26" rx="13"
               fill="#0b1119" stroke="#1e2837" stroke-width="1"/>
-        <rect x="424" y="292" width="76" height="26" rx="13"
+        <rect x="26" y="316" width="76" height="26" rx="13"
               fill="none" stroke="#5eead4" stroke-width="1" stroke-opacity="0.30">
           <animate attributeName="stroke-opacity" values="0.10;0.55;0.10"
-                   dur="5.6s" begin="1.6800000000000002s" repeatCount="indefinite"/>
+                   dur="5.6s" begin="1.68s" repeatCount="indefinite"/>
         </rect>
-        <text x="462" y="309" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">LangGraph</text>
+        <text x="64" y="333" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">LangGraph</text>
       </g>
   <g>
-        <rect x="508" y="292" width="52" height="26" rx="13"
+        <rect x="110" y="316" width="52" height="26" rx="13"
               fill="#0b1119" stroke="#1e2837" stroke-width="1"/>
-        <rect x="508" y="292" width="52" height="26" rx="13"
+        <rect x="110" y="316" width="52" height="26" rx="13"
               fill="none" stroke="#5eead4" stroke-width="1" stroke-opacity="0.30">
           <animate attributeName="stroke-opacity" values="0.10;0.55;0.10"
-                   dur="5.6s" begin="1.9600000000000002s" repeatCount="indefinite"/>
+                   dur="5.6s" begin="1.96s" repeatCount="indefinite"/>
         </rect>
-        <text x="534" y="309" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">Redis</text>
+        <text x="136" y="333" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">Redis</text>
       </g>
   <g>
-        <rect x="568" y="292" width="70" height="26" rx="13"
+        <rect x="170" y="316" width="70" height="26" rx="13"
               fill="#0b1119" stroke="#1e2837" stroke-width="1"/>
-        <rect x="568" y="292" width="70" height="26" rx="13"
+        <rect x="170" y="316" width="70" height="26" rx="13"
               fill="none" stroke="#5eead4" stroke-width="1" stroke-opacity="0.30">
           <animate attributeName="stroke-opacity" values="0.10;0.55;0.10"
                    dur="5.6s" begin="2.24s" repeatCount="indefinite"/>
         </rect>
-        <text x="603" y="309" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">Postgres</text>
+        <text x="205" y="333" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">Postgres</text>
       </g>
   <g>
-        <rect x="646" y="292" width="58" height="26" rx="13"
+        <rect x="248" y="316" width="58" height="26" rx="13"
               fill="#0b1119" stroke="#1e2837" stroke-width="1"/>
-        <rect x="646" y="292" width="58" height="26" rx="13"
+        <rect x="248" y="316" width="58" height="26" rx="13"
               fill="none" stroke="#5eead4" stroke-width="1" stroke-opacity="0.30">
           <animate attributeName="stroke-opacity" values="0.10;0.55;0.10"
-                   dur="5.6s" begin="2.5200000000000005s" repeatCount="indefinite"/>
+                   dur="5.6s" begin="2.52s" repeatCount="indefinite"/>
         </rect>
-        <text x="675" y="309" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">Docker</text>
+        <text x="277" y="333" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">Docker</text>
       </g>
   <g>
-        <rect x="712" y="292" width="70" height="26" rx="13"
+        <rect x="314" y="316" width="70" height="26" rx="13"
               fill="#0b1119" stroke="#1e2837" stroke-width="1"/>
-        <rect x="712" y="292" width="70" height="26" rx="13"
+        <rect x="314" y="316" width="70" height="26" rx="13"
               fill="none" stroke="#5eead4" stroke-width="1" stroke-opacity="0.30">
           <animate attributeName="stroke-opacity" values="0.10;0.55;0.10"
-                   dur="5.6s" begin="2.8000000000000003s" repeatCount="indefinite"/>
+                   dur="5.6s" begin="2.80s" repeatCount="indefinite"/>
         </rect>
-        <text x="747" y="309" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">Pinecone</text>
+        <text x="349" y="333" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">Pinecone</text>
       </g>
   <g>
-        <rect x="790" y="292" width="106" height="26" rx="13"
+        <rect x="392" y="316" width="106" height="26" rx="13"
               fill="#0b1119" stroke="#1e2837" stroke-width="1"/>
-        <rect x="790" y="292" width="106" height="26" rx="13"
+        <rect x="392" y="316" width="106" height="26" rx="13"
               fill="none" stroke="#5eead4" stroke-width="1" stroke-opacity="0.30">
           <animate attributeName="stroke-opacity" values="0.10;0.55;0.10"
                    dur="5.6s" begin="3.08s" repeatCount="indefinite"/>
         </rect>
-        <text x="843" y="309" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">GitHub Actions</text>
+        <text x="445" y="333" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="500" text-anchor="middle" fill="#bccadb">GitHub Actions</text>
       </g>
 
-  <!-- projects -->
+  <!-- stack map -->
   <g>
-  <rect x="424" y="328" width="235.33" height="108" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
+  <rect x="642" y="68" width="512" height="274" rx="16" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
   </g>
-  <rect x="438" y="345" width="20" height="2.6" rx="1.3" fill="#5eead4">
-      <animate attributeName="width" values="20;34;20" dur="6.4s" begin="0.00s" repeatCount="indefinite"/>
-    </rect>
-  <text x="645.33" y="352" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="600" letter-spacing="1" text-anchor="end" fill="#6e8096">AGENTS</text>
-  <text x="438" y="367" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.8" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">AutoPR</text>
-  <text x="438" y="386" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">Multi-agent PR reviewer that</text>
-  <text x="438" y="399.4" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">repairs CI, gated on approval.</text>
-  <text x="438" y="424" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" letter-spacing="0.2" fill="#6e8096">Python · LangGraph · Redis</text>
-  <g>
-  <rect x="671.33" y="328" width="235.33" height="108" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
+  <g clip-path="url(#cardClip)">
+    <rect x="642" y="68" width="512" height="274" fill="url(#gridFine)" opacity="0.5"/>
   </g>
-  <rect x="685.33" y="345" width="20" height="2.6" rx="1.3" fill="#5eead4">
-      <animate attributeName="width" values="20;34;20" dur="6.4s" begin="0.34s" repeatCount="indefinite"/>
-    </rect>
-  <circle cx="869.63" cy="349.4" r="2.6" fill="#f0b429"><animate attributeName="opacity" values="1;1;0.2;0.2" keyTimes="0;0.5;0.56;1" dur="3.2ss" begin="0.34s" repeatCount="indefinite"/></circle>
-  <text x="892.67" y="352" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="600" letter-spacing="1" text-anchor="end" fill="#f0b429">RAG</text>
-  <text x="685.33" y="367" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.8" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">DocMind AI</text>
-  <text x="685.33" y="386" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">RAG over your own PDFs, with</text>
-  <text x="685.33" y="399.4" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">citations and a vector store.</text>
-  <text x="685.33" y="424" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" letter-spacing="0.2" fill="#6e8096">Next.js · FastAPI · Pinecone</text>
-  <g>
-  <rect x="918.67" y="328" width="235.33" height="108" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
-  </g>
-  <rect x="932.67" y="345" width="20" height="2.6" rx="1.3" fill="#5eead4">
-      <animate attributeName="width" values="20;34;20" dur="6.4s" begin="0.68s" repeatCount="indefinite"/>
-    </rect>
-  <circle cx="1112.28" cy="349.4" r="2.6" fill="#f0b429"><animate attributeName="opacity" values="1;1;0.2;0.2" keyTimes="0;0.5;0.56;1" dur="3.2ss" begin="0.68s" repeatCount="indefinite"/></circle>
-  <text x="1140" y="352" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="600" letter-spacing="1" text-anchor="end" fill="#f0b429">DATA</text>
-  <text x="932.67" y="367" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.8" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">CompIQ</text>
-  <text x="932.67" y="386" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">Compare offers by level, not</text>
-  <text x="932.67" y="399.4" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">job title. Google L5 = Meta E5.</text>
-  <text x="932.67" y="424" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" letter-spacing="0.2" fill="#6e8096">Next.js · Prisma · Postgres</text>
-  <g>
-  <rect x="424" y="448" width="235.33" height="108" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
-  </g>
-  <rect x="438" y="465" width="20" height="2.6" rx="1.3" fill="#5eead4">
-      <animate attributeName="width" values="20;34;20" dur="6.4s" begin="1.02s" repeatCount="indefinite"/>
-    </rect>
-  <text x="645.33" y="472" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="600" letter-spacing="1" text-anchor="end" fill="#6e8096">SYSTEMS</text>
-  <text x="438" y="487" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.8" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">Hybrid Data Pipeline</text>
-  <text x="438" y="506" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">C++ engine writes the CSV,</text>
-  <text x="438" y="519.4" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">Python trains on it. Seeded.</text>
-  <text x="438" y="544" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" letter-spacing="0.2" fill="#6e8096">C++ · Python · scikit-learn</text>
-  <g>
-  <rect x="671.33" y="448" width="235.33" height="108" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
-  </g>
-  <rect x="685.33" y="465" width="20" height="2.6" rx="1.3" fill="#5eead4">
-      <animate attributeName="width" values="20;34;20" dur="6.4s" begin="1.36s" repeatCount="indefinite"/>
-    </rect>
-  <text x="892.67" y="472" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="600" letter-spacing="1" text-anchor="end" fill="#6e8096">AI</text>
-  <text x="685.33" y="487" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.8" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">PrepAI</text>
-  <text x="685.33" y="506" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">AI mock interviews, async</text>
-  <text x="685.33" y="519.4" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">jobs behind Redis + BullMQ.</text>
-  <text x="685.33" y="544" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" letter-spacing="0.2" fill="#6e8096">React · Node · MongoDB</text>
-  <g>
-  <rect x="918.67" y="448" width="235.33" height="108" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
-  </g>
-  <rect x="932.67" y="465" width="20" height="2.6" rx="1.3" fill="#5eead4">
-      <animate attributeName="width" values="20;34;20" dur="6.4s" begin="1.70s" repeatCount="indefinite"/>
-    </rect>
-  <text x="1140" y="472" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="600" letter-spacing="1" text-anchor="end" fill="#6e8096">TOOLS</text>
-  <text x="932.67" y="487" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="12.8" font-weight="650" letter-spacing="-0.1" fill="#e9f1fa">Suhana AI</text>
-  <text x="932.67" y="506" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">Flask studio: scripts, reels,</text>
-  <text x="932.67" y="519.4" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.7" fill="#8b9cb3">PDF tools, BYOK API keys.</text>
-  <text x="932.67" y="544" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.2" letter-spacing="0.2" fill="#6e8096">Flask · Docker · ffmpeg</text>
+  <text x="662" y="94" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.6" font-weight="600" letter-spacing="2.2" fill="#5eead4">STACK.MAP</text>
+  <text x="1134" y="94" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9" text-anchor="end" fill="#6e8096">top → bottom</text>
+  <line x1="662" y1="106" x2="1134" y2="106" stroke="#1b2432" stroke-width="1"/>
+  <line x1="672" y1="142" x2="672" y2="306" stroke="#5eead4"
+      stroke-width="6" opacity="0.16" filter="url(#glowSoft)"/>
+  <line x1="672" y1="142" x2="672" y2="306" stroke="url(#spine)" stroke-width="1.6"/>
+  <circle cx="672" cy="306" r="3" fill="#5eead4">
+    <animate attributeName="cy" values="142;306" dur="4.2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="2.2;3.4;2.2" dur="4.2s" repeatCount="indefinite"/>
+  </circle>
+  <line x1="672" y1="142" x2="700" y2="142" stroke="#5eead4" stroke-width="1" opacity="0.42"/>
+  <circle cx="672" cy="142" r="3" fill="#0b1119"
+      stroke="#5eead4" stroke-width="1.6" opacity="0.95"/>
+  <rect x="700" y="126" width="438" height="32" rx="9" fill="url(#chipFill)" stroke="#1e2837" stroke-width="1"/>
+  <rect x="700" y="126" width="438" height="32" rx="9" fill="none"
+        stroke="#5eead4" stroke-width="1" stroke-opacity="0.14">
+        <animate attributeName="stroke-opacity" values="0.10;0.06;0.05;0.46;0.10"
+          keyTimes="0;0.25;0.5;0.62;1" dur="8.4s" begin="0.00s" repeatCount="indefinite"/>
+      </rect>
+  <text x="714" y="146.5" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="700" fill="#5eead4">01</text>
+  <text x="736" y="146.5" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.4" font-weight="600" letter-spacing="1.5" fill="#8b9cb3">CLIENT</text>
+  <text x="1124" y="146.5" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="600" text-anchor="end" fill="#e9f1fa">Next.js · React</text>
+  <line x1="672" y1="183" x2="700" y2="183" stroke="#5eead4" stroke-width="1" opacity="0.42"/>
+  <circle cx="672" cy="183" r="3" fill="#0b1119"
+      stroke="#5eead4" stroke-width="1.6" opacity="0.95"/>
+  <rect x="700" y="167" width="438" height="32" rx="9" fill="url(#chipFill)" stroke="#1e2837" stroke-width="1"/>
+  <rect x="700" y="167" width="438" height="32" rx="9" fill="none"
+        stroke="#5eead4" stroke-width="1" stroke-opacity="0.14">
+        <animate attributeName="stroke-opacity" values="0.10;0.06;0.05;0.46;0.10"
+          keyTimes="0;0.25;0.5;0.62;1" dur="8.4s" begin="0.50s" repeatCount="indefinite"/>
+      </rect>
+  <text x="714" y="187.5" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="700" fill="#5eead4">02</text>
+  <text x="736" y="187.5" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.4" font-weight="600" letter-spacing="1.5" fill="#8b9cb3">INGRESS</text>
+  <text x="1124" y="187.5" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="600" text-anchor="end" fill="#e9f1fa">FastAPI · Express</text>
+  <line x1="672" y1="224" x2="700" y2="224" stroke="#5eead4" stroke-width="1" opacity="0.42"/>
+  <circle cx="672" cy="224" r="3" fill="#0b1119"
+      stroke="#5eead4" stroke-width="1.6" opacity="0.95"/>
+  <rect x="700" y="208" width="438" height="32" rx="9" fill="url(#chipFill)" stroke="#1e2837" stroke-width="1"/>
+  <rect x="700" y="208" width="438" height="32" rx="9" fill="none"
+        stroke="#5eead4" stroke-width="1" stroke-opacity="0.14">
+        <animate attributeName="stroke-opacity" values="0.10;0.06;0.05;0.46;0.10"
+          keyTimes="0;0.25;0.5;0.62;1" dur="8.4s" begin="1.00s" repeatCount="indefinite"/>
+      </rect>
+  <text x="714" y="228.5" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="700" fill="#5eead4">03</text>
+  <text x="736" y="228.5" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.4" font-weight="600" letter-spacing="1.5" fill="#8b9cb3">QUEUE</text>
+  <text x="1124" y="228.5" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="600" text-anchor="end" fill="#e9f1fa">Redis Streams · BullMQ</text>
+  <line x1="672" y1="265" x2="700" y2="265" stroke="#5eead4" stroke-width="1" opacity="0.42"/>
+  <circle cx="672" cy="265" r="3" fill="#0b1119"
+      stroke="#5eead4" stroke-width="1.6" opacity="0.95"/>
+  <rect x="700" y="249" width="438" height="32" rx="9" fill="url(#chipFill)" stroke="#1e2837" stroke-width="1"/>
+  <rect x="700" y="249" width="438" height="32" rx="9" fill="none"
+        stroke="#5eead4" stroke-width="1" stroke-opacity="0.14">
+        <animate attributeName="stroke-opacity" values="0.10;0.06;0.05;0.46;0.10"
+          keyTimes="0;0.25;0.5;0.62;1" dur="8.4s" begin="1.50s" repeatCount="indefinite"/>
+      </rect>
+  <text x="714" y="269.5" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="700" fill="#5eead4">04</text>
+  <text x="736" y="269.5" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.4" font-weight="600" letter-spacing="1.5" fill="#8b9cb3">AGENTS</text>
+  <text x="1124" y="269.5" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="600" text-anchor="end" fill="#e9f1fa">LangGraph · LangChain</text>
+  <line x1="672" y1="306" x2="700" y2="306" stroke="#5eead4" stroke-width="1" opacity="0.42"/>
+  <circle cx="672" cy="306" r="3" fill="#0b1119"
+      stroke="#5eead4" stroke-width="1.6" opacity="0.95"/>
+  <rect x="700" y="290" width="438" height="32" rx="9" fill="url(#chipFill)" stroke="#1e2837" stroke-width="1"/>
+  <rect x="700" y="290" width="438" height="32" rx="9" fill="none"
+        stroke="#5eead4" stroke-width="1" stroke-opacity="0.14">
+        <animate attributeName="stroke-opacity" values="0.10;0.06;0.05;0.46;0.10"
+          keyTimes="0;0.25;0.5;0.62;1" dur="8.4s" begin="2.00s" repeatCount="indefinite"/>
+      </rect>
+  <text x="714" y="310.5" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.6" font-weight="700" fill="#5eead4">05</text>
+  <text x="736" y="310.5" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.4" font-weight="600" letter-spacing="1.5" fill="#8b9cb3">STORE</text>
+  <text x="1124" y="310.5" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="11" font-weight="600" text-anchor="end" fill="#e9f1fa">Postgres · Mongo · Pinecone</text>
 
-  <!-- system info -->
-  <rect x="0" y="556" width="1180" height="54" fill="#0b1119" opacity="0.9"/>
-  <line x1="0" y1="556" x2="1180" y2="556" stroke="#1b2432" stroke-width="1"/>
-  <text x="26" y="580" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="9.4" font-weight="600" letter-spacing="2.6" fill="#5eead4">SYSTEM.INFO</text>
-  <text x="132" y="578" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" font-weight="600" letter-spacing="1.6" fill="#6e8096">EDUCATION</text>
-  <text x="132" y="596" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="10.8" font-weight="500" fill="#e9f1fa">B.Tech Mathematics &amp; Computing, DTU</text>
-  <line x1="368" y1="568" x2="368" y2="590" stroke="#1b2432" stroke-width="1" opacity="0.9"/>
-  <text x="386" y="578" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" font-weight="600" letter-spacing="1.6" fill="#6e8096">OPEN SOURCE</text>
-  <text x="386" y="596" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="10.8" font-weight="500" fill="#e9f1fa">6 merged PRs · ArviZ · Zarr</text>
-  <line x1="622" y1="568" x2="622" y2="590" stroke="#1b2432" stroke-width="1" opacity="0.9"/>
-  <text x="640" y="578" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" font-weight="600" letter-spacing="1.6" fill="#6e8096">FOCUS</text>
-  <text x="640" y="596" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="10.8" font-weight="500" fill="#e9f1fa">Backend · AI infra · Data systems</text>
-  <line x1="876" y1="568" x2="876" y2="590" stroke="#1b2432" stroke-width="1" opacity="0.9"/>
-  <text x="894" y="578" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.4" font-weight="600" letter-spacing="1.6" fill="#6e8096">STATUS</text>
-  <text x="894" y="596" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="10.8" font-weight="500" fill="#e9f1fa">Open to SDE internships</text>
+  <!-- verified counts -->
+  <g>
+  <rect x="26" y="366" width="273" height="92" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
+  </g>
+  <rect x="44" y="384" width="22" height="2.4" rx="1.2" fill="#5eead4">
+      <animate attributeName="width" values="22;38;22" dur="6.8s" begin="0.00s" repeatCount="indefinite"/>
+    </rect>
+  <text x="44" y="406" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" font-weight="600" letter-spacing="1.6" fill="#6e8096">MERGED PRs</text>
+  <text x="43" y="440" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="-0.8" fill="#e9f1fa">6</text>
+  <text x="67.17" y="440" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.4" fill="#8b9cb3">all upstream, none mine</text>
+  <g>
+  <rect x="311" y="366" width="273" height="92" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
+  </g>
+  <rect x="329" y="384" width="22" height="2.4" rx="1.2" fill="#5eead4">
+      <animate attributeName="width" values="22;38;22" dur="6.8s" begin="0.40s" repeatCount="indefinite"/>
+    </rect>
+  <text x="329" y="406" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" font-weight="600" letter-spacing="1.6" fill="#6e8096">UPSTREAM REPOS</text>
+  <text x="328" y="440" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="-0.8" fill="#e9f1fa">3</text>
+  <text x="352.17" y="440" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.4" fill="#8b9cb3">arviz-stats · arviz · zarr</text>
+  <g>
+  <rect x="596" y="366" width="273" height="92" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
+  </g>
+  <rect x="614" y="384" width="22" height="2.4" rx="1.2" fill="#5eead4">
+      <animate attributeName="width" values="22;38;22" dur="6.8s" begin="0.80s" repeatCount="indefinite"/>
+    </rect>
+  <text x="614" y="406" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" font-weight="600" letter-spacing="1.6" fill="#6e8096">SYSTEMS SHIPPED</text>
+  <text x="613" y="440" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="-0.8" fill="#e9f1fa">6</text>
+  <text x="637.17" y="440" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.4" fill="#8b9cb3">backend · AI · data · full-stack</text>
+  <g>
+  <rect x="881" y="366" width="273" height="92" rx="12" fill="url(#cardFill)" stroke="#1e2837" stroke-width="1"/>
+  </g>
+  <rect x="899" y="384" width="22" height="2.4" rx="1.2" fill="#5eead4">
+      <animate attributeName="width" values="22;38;22" dur="6.8s" begin="1.20s" repeatCount="indefinite"/>
+    </rect>
+  <text x="899" y="406" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" font-weight="600" letter-spacing="1.6" fill="#6e8096">LIVE DEMOS</text>
+  <text x="898" y="440" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="30" font-weight="700" letter-spacing="-0.8" fill="#e9f1fa">2</text>
+  <text x="922.17" y="440" font-family="'Inter','Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="9.4" fill="#8b9cb3">DocMind AI · CompIQ</text>
+
+  <!-- footer -->
+  <line x1="0" y1="458" x2="1180" y2="458" stroke="#1b2432" stroke-width="1"/>
+  <text x="26" y="484" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" letter-spacing="1.5" fill="#6e8096">B.TECH MATHEMATICS &amp; COMPUTING · DTU · 2024–2028</text>
+  <text x="1154" y="484" font-family="'SFMono-Regular',ui-monospace,Consolas,'Liberation Mono',Menlo,monospace" font-size="8.8" letter-spacing="1.5" text-anchor="end" fill="#8b9cb3">OPEN TO SDE / BACKEND INTERNSHIPS</text>
+  <circle cx="967.76" cy="480.6" r="3" fill="#5eead4"><animate attributeName="opacity" values="1;1;0.2;0.2" keyTimes="0;0.5;0.56;1" dur="2.8ss" begin="0.6s" repeatCount="indefinite"/></circle>
 </svg>
